@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # go to the right directory
-cd /home/pi/Documents/UoB-GoS-Autumn-Election-Tracker/src
+cd /home/pi/Documents/Guild-Officer-Elections-2024/src
 
 # Run the application
 python main.py
