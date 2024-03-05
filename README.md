@@ -1,1 +1,1 @@
-"# Guild-Officer-Elections-2024" 
+# Guild-Officer-Elections-2024
