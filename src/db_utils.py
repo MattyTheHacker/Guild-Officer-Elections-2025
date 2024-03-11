@@ -74,23 +74,24 @@ def save_to_db(data, date_generated):
             table_name = "department_data"
             put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
 
-
         elif "Year of study" in dataset["Name"]:
             table_name = "year_data"
             put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-
-
 
         elif "Student type" in dataset["Name"]:
             table_name = "type_data"
             put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
 
-
-
-
         elif "Sex" in dataset["Name"]:
             table_name = "sex_data"
+            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
+
+        elif "Large Groups" in dataset["Name"]:
+            table_name = "large_groups_data"
+            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
+
+        elif "Small Groups" in dataset["Name"]:
+            table_name = "small_groups_data"
             put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
 
 
