@@ -3,6 +3,9 @@
 # go to the right directory
 cd /home/pi/Documents/Guild-Officer-Elections-2024/src
 
+# Pull any changes
+git pull -X theirs
+
 # Run the application
 python main.py
 
