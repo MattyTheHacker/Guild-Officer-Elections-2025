@@ -59,9 +59,10 @@ def get_all_election_data():
     7 - Student Type (UG, PGT, PGR)
     8 - Year of Study
     9 - Department
+    10 - College
     """
 
-    election_url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/189?groupIds=1,6,7,8,9&sortBy=itemname&sortDirection=ascending"
+    election_url = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/189?groupIds=1,6,7,8,9,10&sortBy=itemname&sortDirection=ascending"
 
     data = get_data(election_url)
 
