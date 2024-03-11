@@ -59,7 +59,7 @@ def save_to_db(data, date_generated):
     conn = sqlite3.connect(db_file_path)
     cur = conn.cursor()
 
-    tables = ["department_data", "sex_data", "year_data", "type_data"]
+    tables = ["department_data", "sex_data", "year_data", "type_data","small_groups_data","large_groups_data"]
 
     for table in tables:
         cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='" + table + "'")
