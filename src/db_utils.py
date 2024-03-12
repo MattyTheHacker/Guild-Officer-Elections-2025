@@ -59,7 +59,7 @@ def save_to_db(data, date_generated):
     conn = sqlite3.connect(db_file_path)
     cur = conn.cursor()
 
-    tables = ["department_data", "sex_data", "year_data", "type_data","small_groups_data","large_groups_data", "societies_data","medium_groups_data"]
+    tables = ["department_data", "sex_data", "year_data", "type_data","small_groups_data","large_groups_data", "societies_data","medium_groups_data", "college_data", "associations_data"]
 
     for table in tables:
         cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='" + table + "'")
@@ -100,6 +100,14 @@ def save_to_db(data, date_generated):
 
         elif "Societies" in dataset["Name"]:
             table_name = "societies_data"
+            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
+
+        elif "College" in dataset["Name"]:
+            table_name = "college_data"
+            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
+
+        elif "Associations" in dataset["Name"]:
+            table_name = "associations_data"
             put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
 
 
