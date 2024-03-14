@@ -33,7 +33,7 @@ def get_data(url):
 
 def get_generated_date(data):
     print(data)
-    guild_dt = data["DateGenerated"]
+    guild_dt = data['DateGenerated']
 
     guild_dt = guild_dt[:19]
 
