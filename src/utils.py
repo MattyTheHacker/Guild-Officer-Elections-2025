@@ -34,11 +34,8 @@ def get_data(url):
 def get_generated_date(data):
     print(data)
 
-    try:
-        guild_dt = data["DateGenerated"]
-    except:
-        print(data)
-        exit()
+    guild_dt = data["DateGenerated"]
+
     guild_dt = guild_dt[:19]
 
     guild_dt = guild_dt.replace(":", "")
