@@ -38,7 +38,7 @@ def get_generated_date(data):
         guild_dt = data["DateGenerated"]
     except:
         print(data)
-
+        exit()
     guild_dt = guild_dt[:19]
 
     guild_dt = guild_dt.replace(":", "")
