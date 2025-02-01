@@ -1,5 +1,7 @@
-from utils import *
-from db_utils import *
+from utils import get_all_data_file_names, load_json_data, get_generated_date, get_all_election_data
+from db_utils import save_to_db
+
+from datetime import datetime
 
 get_all_election_data()
 

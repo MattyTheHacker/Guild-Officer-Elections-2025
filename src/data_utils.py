@@ -1,4 +1,3 @@
-from utils import *
 import sqlite3
 import sys
 import traceback
@@ -42,7 +41,7 @@ def save_final_count_as_csv(data, filename):
 def save_all_data_as_csv(data, filename):
     with open(filename, 'w', newline = '') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow()
+        writer.writerow(data)
 
 
 

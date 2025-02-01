@@ -3,7 +3,7 @@ import traceback
 import sys
 import os
 
-def put_specific_data_into_db(dataset, table_name, date_generated, cur, conn):
+def put_specific_data_into_db(dataset, table_name: str, date_generated: str, cur: sqlite3.Cursor, conn: sqlite3.Connection):
     cur.execute("SELECT name FROM " + table_name)
     deps_in_db = [dep[0] for dep in cur.fetchall()]
 
@@ -51,15 +51,15 @@ def save_to_db(data, date_generated):
     # we're going to have a separate table for different sets of data:
     # departments, year, type (UG, PGR, PGT) etc...
 
-    db_file_path = "../data/db/all_data.db"
+    db_file_path: str = "../data/db/all_data.db"
 
     if not os.path.exists(db_file_path):
         print("[ERROR] Database file does not exist. A new one will be created...")
 
-    conn = sqlite3.connect(db_file_path)
-    cur = conn.cursor()
+    conn: sqlite3.Connection = sqlite3.connect(db_file_path)
+    cur: sqlite3.Cursor = conn.cursor()
 
-    tables = ["department_data", "sex_data", "year_data", "type_data","small_groups_data","large_groups_data", "societies_data","medium_groups_data", "college_data", "associations_data"]
+    tables: list[str] = ["department_data", "sex_data", "year_data", "type_data","small_groups_data","large_groups_data", "societies_data","medium_groups_data", "college_data", "associations_data"]
 
     for table in tables:
         cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='" + table + "'")
