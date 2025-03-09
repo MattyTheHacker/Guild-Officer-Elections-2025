@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # go to the right directory
-cd /home/pi/Documents/Guild-Officer-Elections-2024/src
+cd ~/Guild-Officer-Elections-2024/src
 
 # Pull any changes
 git fetch --all
