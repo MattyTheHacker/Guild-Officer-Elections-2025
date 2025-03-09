@@ -4,7 +4,10 @@
 cd /home/pi/Documents/Guild-Officer-Elections-2024/src
 
 # Pull any changes
-git pull -X theirs
+git fetch --all
+
+# Reset the local repository to match the remote repository
+git reset --hard origin/main
 
 # Run the application
 python main.py

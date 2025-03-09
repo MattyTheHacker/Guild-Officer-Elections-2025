@@ -3,51 +3,10 @@ import traceback
 import sys
 import os
 
-def put_specific_data_into_db(dataset, table_name: str, date_generated: str, cur: sqlite3.Cursor, conn: sqlite3.Connection):
-    cur.execute("SELECT name FROM " + table_name)
-    deps_in_db = [dep[0] for dep in cur.fetchall()]
-
-    deps = {}
-    for dep in dataset["Items"]:
-        deps[dep["Name"]] = (dep["Voters"], dep["Eligible"])
-    
-    cur.execute("SELECT * FROM " + table_name)
-
-    column_command = "ALTER TABLE " + table_name + " ADD COLUMN '" + date_generated + "' INTEGER"
-    cur.execute(column_command)
-    conn.commit()
-
-    for dep in deps:
-        if dep not in deps_in_db:
-            print("[INFO] Inserting " + dep + " into database...")
-            row_command = "INSERT INTO " + table_name + " (name, eligible) VALUES ('" + dep + "', " + str(deps[dep][1]) + ")"
-            input_data_command = "UPDATE " + table_name + " SET '" + date_generated + "' = " + str(deps[dep][0]) + " WHERE name = '" + dep + "'"
-            try:
-                cur.execute(row_command)
-                cur.execute(input_data_command)
-                conn.commit()
-            except sqlite3.Error as er:
-                print('SQLite error: %s' % (' '.join(er.args)))
-                print("Exception class is: ", er.__class__)
-                print('SQLite traceback: ')
-                exc_type, exc_value, exc_tb = sys.exc_info()
-                print(traceback.format_exception(exc_type, exc_value, exc_tb))
-        else:
-            print("[INFO] Updating " + dep + " in database...")
-            input_data_command = "UPDATE " + table_name + " SET '" + date_generated + "' = " + str(deps[dep][0]) + " WHERE name = '" + dep + "'"
-            try:
-                cur.execute(input_data_command)
-                conn.commit()
-            except sqlite3.Error as er:
-                print('SQLite error: %s' % (' '.join(er.args)))
-                print("Exception class is: ", er.__class__)
-                print('SQLite traceback: ')
-                exc_type, exc_value, exc_tb = sys.exc_info()
-                print(traceback.format_exception(exc_type, exc_value, exc_tb))
+from data_objects import ElectionData, Group, GroupItem
 
 
-
-def save_to_db(data, date_generated):
+def save_to_db(data: ElectionData, date_generated: str) -> None:
     # we're going to have a separate table for different sets of data:
     # departments, year, type (UG, PGR, PGT) etc...
 
@@ -59,62 +18,31 @@ def save_to_db(data, date_generated):
     conn: sqlite3.Connection = sqlite3.connect(db_file_path)
     cur: sqlite3.Cursor = conn.cursor()
 
-    tables: list[str] = ["department_data", "sex_data", "year_data", "type_data","small_groups_data","large_groups_data", "societies_data","medium_groups_data", "college_data", "associations_data"]
-
-    for table in tables:
-        cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='" + table + "'")
+    groups: list[Group] = data["Groups"]
+    group: Group
+    for group in groups:
+        table_name: str = group["Name"].replace(" ", "_").lower()
+        cur.execute(
+            f"SELECT name FROM sqlite_master WHERE type='table' AND name='{table_name}'"
+        )
 
         if cur.fetchone() is None:
-            print("[ERROR] Table " + table + " does not exist. Creating it now...")
-            cur.execute("CREATE TABLE " + table + " (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, eligible INTEGER)")            
+            print("[ERROR] Table " + table_name + " does not exist. Creating it now...")
+            cur.execute(f"CREATE TABLE {table_name} (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, eligible INTEGER, voters INTEGER, turnout REAL)")
 
-
-    for dataset in data["Groups"]:
-        if "Department" in dataset["Name"]:
-            table_name = "department_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Year of study" in dataset["Name"]:
-            table_name = "year_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Student type" in dataset["Name"]:
-            table_name = "type_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Sex" in dataset["Name"]:
-            table_name = "sex_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Large Groups" in dataset["Name"]:
-            table_name = "large_groups_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Small Groups" in dataset["Name"]:
-            table_name = "small_groups_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Medium Group" in dataset["Name"]:
-            table_name = "medium_groups_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Societies" in dataset["Name"]:
-            table_name = "societies_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "College" in dataset["Name"]:
-            table_name = "college_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
-        elif "Associations" in dataset["Name"]:
-            table_name = "associations_data"
-            put_specific_data_into_db(dataset, table_name, date_generated, cur, conn)
-
+        group_data: GroupItem
+        for group_data in group["Items"]:
+            insert_command: str = "INSERT INTO " + table_name + " (name, eligible, voters, turnout) VALUES (?, ?, ?, ?)"
+            try:
+                cur.execute(insert_command, (group_data["Name"], group_data["Eligible"], group_data["Voters"], group_data["Turnout"]))
+                conn.commit()
+            except sqlite3.Error as er:
+                print("SQLite error: %s" % (" ".join(er.args)))
+                print("Exception class is: ", er.__class__)
+                print("SQLite traceback: ")
+                exc_type, exc_value, exc_tb = sys.exc_info()
+                print(traceback.format_exception(exc_type, exc_value, exc_tb))
 
     conn.commit()
-
-    cur.execute("SELECT * FROM department_data")
-
-    print(cur.fetchall())
 
     conn.close()
