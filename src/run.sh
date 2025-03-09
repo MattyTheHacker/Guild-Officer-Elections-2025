@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # go to the right directory
-cd ~/Guild-Officer-Elections-2024/src
+cd "$(dirname "$0")"
 
 # Pull any changes
 git fetch --all
