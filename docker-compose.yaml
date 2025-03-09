@@ -1,8 +1,6 @@
-version: "3.8"
-
 services:
   datasette:
-    image: simonw/datasette
+    image: datasetteproject/datasette
     container_name: datasette
     restart: always
     volumes:
