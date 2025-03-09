@@ -4,7 +4,7 @@ services:
     container_name: datasette
     restart: always
     volumes:
-      - ./data/db/all_data.db
+      - ./data/db/all_data.db:/data/all_data.db
     command: ["datasette", "-h", "0.0.0.0", "-p", "8001", "./data/db/all_data.db"]
     expose:
       - "8001"
