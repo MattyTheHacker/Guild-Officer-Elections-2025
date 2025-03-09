@@ -8,6 +8,7 @@ import os
 from data_objects import ElectionData
 from db_utils import save_to_db
 
+
 def get_all_data_file_names(path: str) -> list[str]:
     return [filename for filename in os.listdir(path) if filename.endswith(".json")]
 
@@ -68,21 +69,22 @@ def get_all_election_data() -> None:
     10 - College
     """
 
-    GENERAL_DATA_URL: Final[str] = "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/388?groupIds=1,6,7,8,9,10&sortBy=itemname&sortDirection=ascending"
-    SOC_DATA_URL: Final[str] = "https://www.guildofstudents.com/svc/voting/stats/election/membershipstats/388?groupIds=1,2,3,4,5,6,7,8,9,10&sortBy=itemname&sortDirection=ascending"
+    GENERAL_DATA_URL: Final[str] = (
+        "https://www.guildofstudents.com/svc/voting/stats/election/paramstats/388?groupIds=1,6,7,8,9,10&sortBy=itemname&sortDirection=ascending"
+    )
+    SOC_DATA_URL: Final[str] = (
+        "https://www.guildofstudents.com/svc/voting/stats/election/membershipstats/388?groupIds=1,2,3,4,5,6,7,8,9,10&sortBy=itemname&sortDirection=ascending"
+    )
 
     general_data: ElectionData = get_data(url=GENERAL_DATA_URL)
     soc_data: ElectionData = get_data(url=SOC_DATA_URL)
 
     all_data: ElectionData = combine_json_data(data_to_combine=[general_data, soc_data])
 
-    date_generated: str = get_generated_date(data=all_data)
+    date_generated: datetime = convert_generated_dt_to_object(
+        generated_dt=get_generated_date(data=all_data)
+    )
 
     save_json_data(data=all_data, filename=f"../data/json/raw/{date_generated}.json")
 
     save_to_db(data=all_data, date_generated=date_generated)
-
-
-if __name__ == '__main__':
-    get_all_election_data()
-

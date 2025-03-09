@@ -1,3 +1,4 @@
+import datetime
 import sqlite3
 import traceback
 import sys
@@ -6,7 +7,7 @@ import os
 from data_objects import ElectionData, Group, GroupItem
 
 
-def save_to_db(data: ElectionData, date_generated: str) -> None:
+def save_to_db(data: ElectionData, date_generated: datetime.datetime) -> None:
     # we're going to have a separate table for different sets of data:
     # departments, year, type (UG, PGR, PGT) etc...
 
@@ -28,13 +29,28 @@ def save_to_db(data: ElectionData, date_generated: str) -> None:
 
         if cur.fetchone() is None:
             print("[ERROR] Table " + table_name + " does not exist. Creating it now...")
-            cur.execute(f"CREATE TABLE {table_name} (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, eligible INTEGER, voters INTEGER, turnout REAL)")
+            cur.execute(
+                f"CREATE TABLE {table_name} (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, eligible INTEGER, voters INTEGER, turnout REAL, timestamp TEXT)"
+            )
 
         group_data: GroupItem
         for group_data in group["Items"]:
-            insert_command: str = "INSERT INTO " + table_name + " (name, eligible, voters, turnout) VALUES (?, ?, ?, ?)"
+            insert_command: str = (
+                "INSERT INTO "
+                + table_name
+                + " (name, eligible, voters, turnout, timestamp) VALUES (?, ?, ?, ?, ?)"
+            )
             try:
-                cur.execute(insert_command, (group_data["Name"], group_data["Eligible"], group_data["Voters"], group_data["Turnout"]))
+                cur.execute(
+                    insert_command,
+                    (
+                        group_data["Name"],
+                        group_data["Eligible"],
+                        group_data["Voters"],
+                        group_data["Turnout"],
+                        date_generated.isoformat(),
+                    ),
+                )
                 conn.commit()
             except sqlite3.Error as er:
                 print("SQLite error: %s" % (" ".join(er.args)))
