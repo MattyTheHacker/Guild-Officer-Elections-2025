@@ -8,14 +8,14 @@
         "Organisation": null,
         "FullName": "Guild Elections - Current Students Only"
     },
-    "Eligible": 46873,
+    "Eligible": 46889,
     "Voters": 0,
-    "NonVoters": 46873,
+    "NonVoters": 46889,
     "Votes": 0,
     "PostCount": 13,
     "CandidateCount": 61,
     "IndividualCandidateCount": 61,
-    "DateGenerated": "2025-03-10T07:00:16.7686154+00:00",
+    "DateGenerated": "2025-03-10T08:39:17.4883393+00:00",
     "Groups": [
         {
             "Name": "Age range",
@@ -41,8 +41,8 @@
                 {
                     "Name": "22 - 25",
                     "Voters": 0,
-                    "NonVoters": 12593,
-                    "Eligible": 12593,
+                    "NonVoters": 12598,
+                    "Eligible": 12598,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -50,8 +50,8 @@
                 {
                     "Name": "26 - 30",
                     "Voters": 0,
-                    "NonVoters": 4151,
-                    "Eligible": 4151,
+                    "NonVoters": 4155,
+                    "Eligible": 4155,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -68,8 +68,8 @@
                 {
                     "Name": "Over 30",
                     "Voters": 0,
-                    "NonVoters": 6399,
-                    "Eligible": 6399,
+                    "NonVoters": 6406,
+                    "Eligible": 6406,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -91,8 +91,8 @@
                 {
                     "Name": "F",
                     "Voters": 0,
-                    "NonVoters": 25561,
-                    "Eligible": 25561,
+                    "NonVoters": 25571,
+                    "Eligible": 25571,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -100,8 +100,8 @@
                 {
                     "Name": "M",
                     "Voters": 0,
-                    "NonVoters": 20174,
-                    "Eligible": 20174,
+                    "NonVoters": 20180,
+                    "Eligible": 20180,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -132,8 +132,8 @@
                 {
                     "Name": "Postgraduate Taught",
                     "Voters": 0,
-                    "NonVoters": 13262,
-                    "Eligible": 13262,
+                    "NonVoters": 13274,
+                    "Eligible": 13274,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -141,8 +141,8 @@
                 {
                     "Name": "Undergraduate",
                     "Voters": 0,
-                    "NonVoters": 29144,
-                    "Eligible": 29144,
+                    "NonVoters": 29148,
+                    "Eligible": 29148,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -155,8 +155,8 @@
                 {
                     "Name": "1st year",
                     "Voters": 0,
-                    "NonVoters": 22755,
-                    "Eligible": 22755,
+                    "NonVoters": 22768,
+                    "Eligible": 22768,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -164,8 +164,8 @@
                 {
                     "Name": "2nd year",
                     "Voters": 0,
-                    "NonVoters": 10554,
-                    "Eligible": 10554,
+                    "NonVoters": 10557,
+                    "Eligible": 10557,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -250,8 +250,8 @@
                 {
                     "Name": "Applied Health Sciences",
                     "Voters": 0,
-                    "NonVoters": 280,
-                    "Eligible": 280,
+                    "NonVoters": 281,
+                    "Eligible": 281,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -286,8 +286,8 @@
                 {
                     "Name": "Birmingham Business School",
                     "Voters": 0,
-                    "NonVoters": 429,
-                    "Eligible": 429,
+                    "NonVoters": 431,
+                    "Eligible": 431,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -295,8 +295,8 @@
                 {
                     "Name": "Birmingham International Acad",
                     "Voters": 0,
-                    "NonVoters": 792,
-                    "Eligible": 792,
+                    "NonVoters": 795,
+                    "Eligible": 795,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -385,8 +385,8 @@
                 {
                     "Name": "COS - College Hub",
                     "Voters": 0,
-                    "NonVoters": 23,
-                    "Eligible": 23,
+                    "NonVoters": 24,
+                    "Eligible": 24,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -430,8 +430,8 @@
                 {
                     "Name": "Earth and Environ Sciences",
                     "Voters": 0,
-                    "NonVoters": 521,
-                    "Eligible": 521,
+                    "NonVoters": 522,
+                    "Eligible": 522,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -529,8 +529,8 @@
                 {
                     "Name": "Health Services Management Cen",
                     "Voters": 0,
-                    "NonVoters": 637,
-                    "Eligible": 637,
+                    "NonVoters": 638,
+                    "Eligible": 638,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -547,8 +547,8 @@
                 {
                     "Name": "Inst of Cancer / Genomic Sci",
                     "Voters": 0,
-                    "NonVoters": 311,
-                    "Eligible": 311,
+                    "NonVoters": 312,
+                    "Eligible": 312,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -691,8 +691,8 @@
                 {
                     "Name": "Pharmacy",
                     "Voters": 0,
-                    "NonVoters": 763,
-                    "Eligible": 763,
+                    "NonVoters": 766,
+                    "Eligible": 766,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -763,8 +763,8 @@
                 {
                     "Name": "School of Psychology",
                     "Voters": 0,
-                    "NonVoters": 1867,
-                    "Eligible": 1867,
+                    "NonVoters": 1868,
+                    "Eligible": 1868,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -790,8 +790,8 @@
                 {
                     "Name": "Social Work & Social Care",
                     "Voters": 0,
-                    "NonVoters": 411,
-                    "Eligible": 411,
+                    "NonVoters": 413,
+                    "Eligible": 413,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -849,8 +849,8 @@
                 {
                     "Name": "All other values",
                     "Voters": 0,
-                    "NonVoters": 8318,
-                    "Eligible": 8318,
+                    "NonVoters": 8326,
+                    "Eligible": 8326,
                     "IsOtherItem": true,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -876,8 +876,8 @@
                 {
                     "Name": "College of Life and Environmental Sciences",
                     "Voters": 0,
-                    "NonVoters": 6696,
-                    "Eligible": 6696,
+                    "NonVoters": 6698,
+                    "Eligible": 6698,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -885,8 +885,8 @@
                 {
                     "Name": "College of Social Sciences",
                     "Voters": 0,
-                    "NonVoters": 13986,
-                    "Eligible": 13986,
+                    "NonVoters": 13992,
+                    "Eligible": 13992,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -1754,8 +1754,8 @@
                 {
                     "Name": "Islamic",
                     "Voters": 0,
-                    "NonVoters": 431,
-                    "Eligible": 431,
+                    "NonVoters": 432,
+                    "Eligible": 432,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
