@@ -4,6 +4,8 @@ import traceback
 import sys
 import os
 
+from typing import Final
+
 from data_objects import ElectionData, Group, GroupItem
 
 
@@ -62,3 +64,39 @@ def save_to_db(data: ElectionData, date_generated: datetime.datetime) -> None:
     conn.commit()
 
     conn.close()
+
+def combine_student_group_data() -> None:
+    DB_FILE_PATH: Final[str] = "../data/db/all_data.db"
+
+    if not os.path.exists(DB_FILE_PATH):
+        print("[ERROR] Database file does not exist. Aborting...")
+        return
+
+    conn: sqlite3.Connection = sqlite3.connect(DB_FILE_PATH)
+    cur: sqlite3.Cursor = conn.cursor()
+
+    cur.execute(
+        "DROP TABLE IF EXISTS all_student_groups"
+    )
+
+    # create new table first
+    cur.execute(
+        "CREATE TABLE all_student_groups (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, eligible INTEGER, voters INTEGER, turnout REAL, timestamp TEXT)"
+    )
+
+    TABLES: Final[list[str]] = ["associations", "medsoc_societies_and_sports_clubs", "societies", "volunteering_groups"]
+
+    table: str
+    for table in TABLES:
+        cur.execute(
+            f"INSERT INTO all_student_groups (name, eligible, voters, turnout, timestamp) SELECT name, eligible, voters, turnout, timestamp FROM {table}"
+        )
+
+    # remove any rows with "All other organisations" in the name
+    cur.execute(
+        "DELETE FROM all_student_groups WHERE name = 'All other organisations'"
+    )
+
+    conn.commit()
+    conn.close()
+

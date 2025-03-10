@@ -6,7 +6,7 @@ import json
 import os
 
 from data_objects import ElectionData
-from db_utils import save_to_db
+from db_utils import save_to_db, combine_student_group_data
 
 
 def get_all_data_file_names(path: str) -> list[str]:
@@ -88,3 +88,5 @@ def get_all_election_data() -> None:
     save_json_data(data=all_data, filename=f"../data/json/raw/{date_generated}.json")
 
     save_to_db(data=all_data, date_generated=date_generated)
+
+    combine_student_group_data()
