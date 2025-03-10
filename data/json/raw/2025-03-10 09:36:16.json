@@ -15,7 +15,7 @@
     "PostCount": 13,
     "CandidateCount": 60,
     "IndividualCandidateCount": 60,
-    "DateGenerated": "2025-03-10T09:12:43.139589+00:00",
+    "DateGenerated": "2025-03-10T09:36:16.9055493+00:00",
     "Groups": [
         {
             "Name": "Age range",
@@ -849,8 +849,8 @@
                 {
                     "Name": "All other values",
                     "Voters": 0,
-                    "NonVoters": 8326,
-                    "Eligible": 8326,
+                    "NonVoters": 2085,
+                    "Eligible": 2085,
                     "IsOtherItem": true,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -878,6 +878,15 @@
                     "Voters": 0,
                     "NonVoters": 6698,
                     "Eligible": 6698,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "College of Medicine and Health",
+                    "Voters": 0,
+                    "NonVoters": 6241,
+                    "Eligible": 6241,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -2711,15 +2720,6 @@
                     "RelativeTurnout": 0.0
                 },
                 {
-                    "Name": "Headucate",
-                    "Voters": 0,
-                    "NonVoters": 9,
-                    "Eligible": 9,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
                     "Name": "International Volunteering Society (Intervol)",
                     "Voters": 0,
                     "NonVoters": 75,
@@ -2842,15 +2842,6 @@
                     "RelativeTurnout": 0.0
                 },
                 {
-                    "Name": "Basketball",
-                    "Voters": 0,
-                    "NonVoters": 1,
-                    "Eligible": 1,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
                     "Name": "Biomedical Sciences",
                     "Voters": 0,
                     "NonVoters": 64,
@@ -2873,15 +2864,6 @@
                     "Voters": 0,
                     "NonVoters": 68,
                     "Eligible": 68,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
-                    "Name": "Comedy Revue",
-                    "Voters": 0,
-                    "NonVoters": 3,
-                    "Eligible": 3,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -2936,15 +2918,6 @@
                     "Voters": 0,
                     "NonVoters": 94,
                     "Eligible": 94,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
-                    "Name": "Global Brigades",
-                    "Voters": 0,
-                    "NonVoters": 7,
-                    "Eligible": 7,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -3035,15 +3008,6 @@
                     "Voters": 0,
                     "NonVoters": 31,
                     "Eligible": 31,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
-                    "Name": "MedYoga",
-                    "Voters": 0,
-                    "NonVoters": 8,
-                    "Eligible": 8,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
@@ -3261,33 +3225,6 @@
             "Name": "Associations",
             "Items": [
                 {
-                    "Name": "Black and Ethnic Minority Association",
-                    "Voters": 0,
-                    "NonVoters": 3,
-                    "Eligible": 3,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
-                    "Name": "DAMSA",
-                    "Voters": 0,
-                    "NonVoters": 60,
-                    "Eligible": 60,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
-                    "Name": "International Students Association",
-                    "Voters": 0,
-                    "NonVoters": 60,
-                    "Eligible": 60,
-                    "IsOtherItem": false,
-                    "Turnout": 0.0,
-                    "RelativeTurnout": 0.0
-                },
-                {
                     "Name": "Intersectional Feminist Association",
                     "Voters": 0,
                     "NonVoters": 30,
@@ -3301,6 +3238,15 @@
                     "Voters": 0,
                     "NonVoters": 164,
                     "Eligible": 164,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "SANDAM",
+                    "Voters": 0,
+                    "NonVoters": 60,
+                    "Eligible": 60,
                     "IsOtherItem": false,
                     "Turnout": 0.0,
                     "RelativeTurnout": 0.0
