@@ -10,7 +10,7 @@ git fetch --all
 git reset --hard origin/main
 
 # Run the application
-python main.py
+python3 main.py
 
 # Add all files to git
 git add --all
