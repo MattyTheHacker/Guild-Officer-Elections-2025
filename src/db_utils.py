@@ -3,6 +3,7 @@ import sqlite3
 import traceback
 import sys
 import os
+import json
 
 from typing import Final
 
@@ -100,3 +101,76 @@ def combine_student_group_data() -> None:
     conn.commit()
     conn.close()
 
+
+def separate_turnout_data() -> None:
+    DB_FILE_PATH: Final[str] = "../data/db/all_data.db"
+
+    if not os.path.exists(DB_FILE_PATH):
+        print("[ERROR] Database file does not exist. Aborting...")
+        return
+    
+    data: dict[str, float] = {}
+
+    for file in os.listdir("../data/json/raw/"):
+
+        election_data: ElectionData = json.load(open("../data/json/raw/" + file))
+        date_generated: datetime.datetime = datetime.datetime.fromisoformat(election_data["DateGenerated"])
+        turnout: float = election_data["Turnout"]
+        data[date_generated.isoformat()] = turnout
+    
+    conn: sqlite3.Connection = sqlite3.connect(DB_FILE_PATH)
+    cur: sqlite3.Cursor = conn.cursor()
+
+    cur.execute(
+        "DROP TABLE IF EXISTS turnout_data"
+    )
+
+    cur.execute(
+        "CREATE TABLE turnout_data (id INTEGER PRIMARY KEY AUTOINCREMENT, timestamp TEXT, turnout REAL)"
+    )
+
+    for timestamp, turnout in data.items():
+        cur.execute(
+            "INSERT INTO turnout_data (timestamp, turnout) VALUES (?, ?)",
+            (timestamp, turnout)
+        )
+
+    conn.commit()
+    conn.close()
+
+
+def separate_total_vote_count() -> None:
+    DB_FILE_PATH: Final[str] = "../data/db/all_data.db"
+
+    if not os.path.exists(DB_FILE_PATH):
+        print("[ERROR] Database file does not exist. Aborting...")
+        return
+    
+    data: dict[str, int] = {}
+
+    for file in os.listdir("../data/json/raw/"):
+
+        election_data: ElectionData = json.load(open("../data/json/raw/" + file))
+        date_generated: datetime.datetime = datetime.datetime.fromisoformat(election_data["DateGenerated"])
+        total_votes: int = election_data["Voters"]
+        data[date_generated.isoformat()] = total_votes
+    
+    conn: sqlite3.Connection = sqlite3.connect(DB_FILE_PATH)
+    cur: sqlite3.Cursor = conn.cursor()
+
+    cur.execute(
+        "DROP TABLE IF EXISTS total_vote_count"
+    )
+
+    cur.execute(
+        "CREATE TABLE total_vote_count (id INTEGER PRIMARY KEY AUTOINCREMENT, timestamp TEXT, vote_count INTEGER)"
+    )
+
+    for timestamp, vote_count in data.items():
+        cur.execute(
+            "INSERT INTO total_vote_count (timestamp, vote_count) VALUES (?, ?)",
+            (timestamp, vote_count)
+        )
+
+    conn.commit()
+    conn.close()

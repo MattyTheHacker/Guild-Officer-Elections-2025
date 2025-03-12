@@ -6,7 +6,7 @@ import json
 import os
 
 from data_objects import ElectionData
-from db_utils import save_to_db, combine_student_group_data
+from db_utils import save_to_db, combine_student_group_data, separate_total_vote_count, separate_turnout_data
 
 
 def get_all_data_file_names(path: str) -> list[str]:
@@ -90,3 +90,7 @@ def get_all_election_data() -> None:
     save_to_db(data=all_data, date_generated=date_generated)
 
     combine_student_group_data()
+
+    separate_turnout_data()
+
+    separate_total_vote_count()

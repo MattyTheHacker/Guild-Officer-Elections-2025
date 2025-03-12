@@ -37,6 +37,7 @@ class ElectionData(TypedDict):
     IndividualCandidateCount: int
     DateGenerated: str
     Groups: List[Group]
+    Turnout: float
 
 
 def combine_groups(groups: List[Group], group_name: str) -> Group:
