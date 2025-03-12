@@ -1,0 +1,3267 @@
+{
+    "Id": 388,
+    "Title": "Guild Elections 2025",
+    "Organisation": {
+        "Id": 43161,
+        "Name": "Guild Elections - Current Students Only",
+        "GroupingType": null,
+        "Organisation": null,
+        "FullName": "Guild Elections - Current Students Only"
+    },
+    "Eligible": 46960,
+    "Voters": 5650,
+    "NonVoters": 41310,
+    "Votes": 43822,
+    "PostCount": 13,
+    "CandidateCount": 60,
+    "IndividualCandidateCount": 60,
+    "DateGenerated": "2025-03-12T12:30:03.7700513+00:00",
+    "Groups": [
+        {
+            "Name": "Age range",
+            "Items": [
+                {
+                    "Name": "16 - 17",
+                    "Voters": 14,
+                    "NonVoters": 540,
+                    "Eligible": 554,
+                    "IsOtherItem": false,
+                    "Turnout": 2.52707581227437,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "18 - 21",
+                    "Voters": 3800,
+                    "NonVoters": 19347,
+                    "Eligible": 23147,
+                    "IsOtherItem": false,
+                    "Turnout": 16.416814273988,
+                    "RelativeTurnout": 8.09199318568995
+                },
+                {
+                    "Name": "22 - 25",
+                    "Voters": 1441,
+                    "NonVoters": 11204,
+                    "Eligible": 12645,
+                    "IsOtherItem": false,
+                    "Turnout": 11.3958086200079,
+                    "RelativeTurnout": 3.06856899488927
+                },
+                {
+                    "Name": "26 - 30",
+                    "Voters": 261,
+                    "NonVoters": 3901,
+                    "Eligible": 4162,
+                    "IsOtherItem": false,
+                    "Turnout": 6.27102354637194,
+                    "RelativeTurnout": 0.555792163543441
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 0,
+                    "NonVoters": 14,
+                    "Eligible": 14,
+                    "IsOtherItem": true,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Over 30",
+                    "Voters": 134,
+                    "NonVoters": 6304,
+                    "Eligible": 6438,
+                    "IsOtherItem": false,
+                    "Turnout": 2.08139173656415,
+                    "RelativeTurnout": 0.285349233390119
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 13,
+                    "NonVoters": 27,
+                    "Eligible": 40,
+                    "IsOtherItem": true,
+                    "Turnout": 32.5,
+                    "RelativeTurnout": 0.0276831345826235
+                },
+                {
+                    "Name": "F",
+                    "Voters": 3387,
+                    "NonVoters": 22215,
+                    "Eligible": 25602,
+                    "IsOtherItem": false,
+                    "Turnout": 13.229435200375,
+                    "RelativeTurnout": 7.21252129471891
+                },
+                {
+                    "Name": "M",
+                    "Voters": 2241,
+                    "NonVoters": 17960,
+                    "Eligible": 20201,
+                    "IsOtherItem": false,
+                    "Turnout": 11.0935102222662,
+                    "RelativeTurnout": 4.7721465076661
+                },
+                {
+                    "Name": "N",
+                    "Voters": 9,
+                    "NonVoters": 1108,
+                    "Eligible": 1117,
+                    "IsOtherItem": false,
+                    "Turnout": 0.80572963294539,
+                    "RelativeTurnout": 0.0191652470187394
+                }
+            ]
+        },
+        {
+            "Name": "Student type",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 0,
+                    "NonVoters": 2,
+                    "Eligible": 2,
+                    "IsOtherItem": true,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Postgraduate Research",
+                    "Voters": 185,
+                    "NonVoters": 4295,
+                    "Eligible": 4480,
+                    "IsOtherItem": false,
+                    "Turnout": 4.12946428571429,
+                    "RelativeTurnout": 0.393952299829642
+                },
+                {
+                    "Name": "Postgraduate Taught",
+                    "Voters": 1115,
+                    "NonVoters": 12192,
+                    "Eligible": 13307,
+                    "IsOtherItem": false,
+                    "Turnout": 8.37904862102653,
+                    "RelativeTurnout": 2.37436115843271
+                },
+                {
+                    "Name": "Undergraduate",
+                    "Voters": 4350,
+                    "NonVoters": 24821,
+                    "Eligible": 29171,
+                    "IsOtherItem": false,
+                    "Turnout": 14.9120702067121,
+                    "RelativeTurnout": 9.26320272572402
+                }
+            ]
+        },
+        {
+            "Name": "Year of study",
+            "Items": [
+                {
+                    "Name": "1st year",
+                    "Voters": 2796,
+                    "NonVoters": 20020,
+                    "Eligible": 22816,
+                    "IsOtherItem": false,
+                    "Turnout": 12.2545582047686,
+                    "RelativeTurnout": 5.95400340715502
+                },
+                {
+                    "Name": "2nd year",
+                    "Voters": 1188,
+                    "NonVoters": 9375,
+                    "Eligible": 10563,
+                    "IsOtherItem": false,
+                    "Turnout": 11.2468048849759,
+                    "RelativeTurnout": 2.52981260647359
+                },
+                {
+                    "Name": "3rd year",
+                    "Voters": 1081,
+                    "NonVoters": 7483,
+                    "Eligible": 8564,
+                    "IsOtherItem": false,
+                    "Turnout": 12.6226062587576,
+                    "RelativeTurnout": 2.30195911413969
+                },
+                {
+                    "Name": "4th year",
+                    "Voters": 443,
+                    "NonVoters": 2580,
+                    "Eligible": 3023,
+                    "IsOtherItem": false,
+                    "Turnout": 14.654316903738,
+                    "RelativeTurnout": 0.94335604770017
+                },
+                {
+                    "Name": "5th year +",
+                    "Voters": 60,
+                    "NonVoters": 1093,
+                    "Eligible": 1153,
+                    "IsOtherItem": false,
+                    "Turnout": 5.20381613183001,
+                    "RelativeTurnout": 0.127768313458262
+                },
+                {
+                    "Name": "Foundation year",
+                    "Voters": 82,
+                    "NonVoters": 757,
+                    "Eligible": 839,
+                    "IsOtherItem": false,
+                    "Turnout": 9.77353992848629,
+                    "RelativeTurnout": 0.174616695059625
+                }
+            ]
+        },
+        {
+            "Name": "Department",
+            "Items": [
+                {
+                    "Name": "Academic Services",
+                    "Voters": 6,
+                    "NonVoters": 2,
+                    "Eligible": 8,
+                    "IsOtherItem": false,
+                    "Turnout": 75.0,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Accounting",
+                    "Voters": 95,
+                    "NonVoters": 1042,
+                    "Eligible": 1137,
+                    "IsOtherItem": false,
+                    "Turnout": 8.35532102022867,
+                    "RelativeTurnout": 0.202299829642249
+                },
+                {
+                    "Name": "African Studies & Anthropology",
+                    "Voters": 24,
+                    "NonVoters": 80,
+                    "Eligible": 104,
+                    "IsOtherItem": false,
+                    "Turnout": 23.0769230769231,
+                    "RelativeTurnout": 0.0511073253833049
+                },
+                {
+                    "Name": "All other values",
+                    "Voters": 101,
+                    "NonVoters": 1424,
+                    "Eligible": 1525,
+                    "IsOtherItem": true,
+                    "Turnout": 6.62295081967213,
+                    "RelativeTurnout": 0.215076660988075
+                },
+                {
+                    "Name": "Applied Health Sciences",
+                    "Voters": 9,
+                    "NonVoters": 272,
+                    "Eligible": 281,
+                    "IsOtherItem": false,
+                    "Turnout": 3.20284697508897,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Art Hist, Cur and Vis Studies",
+                    "Voters": 19,
+                    "NonVoters": 129,
+                    "Eligible": 148,
+                    "IsOtherItem": false,
+                    "Turnout": 12.8378378378378,
+                    "RelativeTurnout": 0.0404599659284497
+                },
+                {
+                    "Name": "Bhm Clinical Trial Unit (BCTU)",
+                    "Voters": 2,
+                    "NonVoters": 11,
+                    "Eligible": 13,
+                    "IsOtherItem": false,
+                    "Turnout": 15.3846153846154,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Biomedical Sciences",
+                    "Voters": 146,
+                    "NonVoters": 598,
+                    "Eligible": 744,
+                    "IsOtherItem": false,
+                    "Turnout": 19.6236559139785,
+                    "RelativeTurnout": 0.310902896081772
+                },
+                {
+                    "Name": "Birmingham Business School",
+                    "Voters": 81,
+                    "NonVoters": 350,
+                    "Eligible": 431,
+                    "IsOtherItem": false,
+                    "Turnout": 18.7935034802784,
+                    "RelativeTurnout": 0.172487223168654
+                },
+                {
+                    "Name": "Birmingham International Acad",
+                    "Voters": 71,
+                    "NonVoters": 730,
+                    "Eligible": 801,
+                    "IsOtherItem": false,
+                    "Turnout": 8.86392009987516,
+                    "RelativeTurnout": 0.151192504258944
+                },
+                {
+                    "Name": "Birmingham Leadership Inst",
+                    "Voters": 0,
+                    "NonVoters": 27,
+                    "Eligible": 27,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Birmingham Medical School",
+                    "Voters": 308,
+                    "NonVoters": 2037,
+                    "Eligible": 2345,
+                    "IsOtherItem": false,
+                    "Turnout": 13.134328358209,
+                    "RelativeTurnout": 0.65587734241908
+                },
+                {
+                    "Name": "Byzantine, Ottoman, Greek Stud",
+                    "Voters": 0,
+                    "NonVoters": 6,
+                    "Eligible": 6,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "CAL - College Hub",
+                    "Voters": 0,
+                    "NonVoters": 3,
+                    "Eligible": 3,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Chemical Engineering",
+                    "Voters": 134,
+                    "NonVoters": 875,
+                    "Eligible": 1009,
+                    "IsOtherItem": false,
+                    "Turnout": 13.2804757185332,
+                    "RelativeTurnout": 0.285349233390119
+                },
+                {
+                    "Name": "Chemistry",
+                    "Voters": 94,
+                    "NonVoters": 551,
+                    "Eligible": 645,
+                    "IsOtherItem": false,
+                    "Turnout": 14.5736434108527,
+                    "RelativeTurnout": 0.200170357751278
+                },
+                {
+                    "Name": "Civil Engineering",
+                    "Voters": 104,
+                    "NonVoters": 667,
+                    "Eligible": 771,
+                    "IsOtherItem": false,
+                    "Turnout": 13.4889753566796,
+                    "RelativeTurnout": 0.221465076660988
+                },
+                {
+                    "Name": "Classics, AH and Archaeology",
+                    "Voters": 33,
+                    "NonVoters": 222,
+                    "Eligible": 255,
+                    "IsOtherItem": false,
+                    "Turnout": 12.9411764705882,
+                    "RelativeTurnout": 0.0702725724020443
+                },
+                {
+                    "Name": "Computer Science",
+                    "Voters": 389,
+                    "NonVoters": 2256,
+                    "Eligible": 2645,
+                    "IsOtherItem": false,
+                    "Turnout": 14.7069943289225,
+                    "RelativeTurnout": 0.828364565587734
+                },
+                {
+                    "Name": "COS - College Hub",
+                    "Voters": 0,
+                    "NonVoters": 24,
+                    "Eligible": 24,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Dental Hygiene and Therapy",
+                    "Voters": 11,
+                    "NonVoters": 67,
+                    "Eligible": 78,
+                    "IsOtherItem": false,
+                    "Turnout": 14.1025641025641,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "Dentistry",
+                    "Voters": 42,
+                    "NonVoters": 429,
+                    "Eligible": 471,
+                    "IsOtherItem": false,
+                    "Turnout": 8.9171974522293,
+                    "RelativeTurnout": 0.0894378194207836
+                },
+                {
+                    "Name": "Disab, Inclusion & Spec Needs",
+                    "Voters": 2,
+                    "NonVoters": 637,
+                    "Eligible": 639,
+                    "IsOtherItem": false,
+                    "Turnout": 0.312989045383412,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Drama and Theatre Arts",
+                    "Voters": 23,
+                    "NonVoters": 86,
+                    "Eligible": 109,
+                    "IsOtherItem": false,
+                    "Turnout": 21.1009174311927,
+                    "RelativeTurnout": 0.0489778534923339
+                },
+                {
+                    "Name": "Earth and Environ Sciences",
+                    "Voters": 88,
+                    "NonVoters": 434,
+                    "Eligible": 522,
+                    "IsOtherItem": false,
+                    "Turnout": 16.8582375478927,
+                    "RelativeTurnout": 0.187393526405451
+                },
+                {
+                    "Name": "Economics",
+                    "Voters": 201,
+                    "NonVoters": 1283,
+                    "Eligible": 1484,
+                    "IsOtherItem": false,
+                    "Turnout": 13.544474393531,
+                    "RelativeTurnout": 0.428023850085179
+                },
+                {
+                    "Name": "Education & Social Justice",
+                    "Voters": 104,
+                    "NonVoters": 667,
+                    "Eligible": 771,
+                    "IsOtherItem": false,
+                    "Turnout": 13.4889753566796,
+                    "RelativeTurnout": 0.221465076660988
+                },
+                {
+                    "Name": "Elec, Elec & Sys Engineering",
+                    "Voters": 107,
+                    "NonVoters": 843,
+                    "Eligible": 950,
+                    "IsOtherItem": false,
+                    "Turnout": 11.2631578947368,
+                    "RelativeTurnout": 0.227853492333901
+                },
+                {
+                    "Name": "Engineering",
+                    "Voters": 4,
+                    "NonVoters": 24,
+                    "Eligible": 28,
+                    "IsOtherItem": false,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "English Literature",
+                    "Voters": 116,
+                    "NonVoters": 469,
+                    "Eligible": 585,
+                    "IsOtherItem": false,
+                    "Turnout": 19.8290598290598,
+                    "RelativeTurnout": 0.247018739352641
+                },
+                {
+                    "Name": "EPS - College Hub",
+                    "Voters": 10,
+                    "NonVoters": 45,
+                    "Eligible": 55,
+                    "IsOtherItem": false,
+                    "Turnout": 18.1818181818182,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Film and Creative Writing",
+                    "Voters": 86,
+                    "NonVoters": 284,
+                    "Eligible": 370,
+                    "IsOtherItem": false,
+                    "Turnout": 23.2432432432432,
+                    "RelativeTurnout": 0.183134582623509
+                },
+                {
+                    "Name": "Finance",
+                    "Voters": 26,
+                    "NonVoters": 189,
+                    "Eligible": 215,
+                    "IsOtherItem": false,
+                    "Turnout": 12.093023255814,
+                    "RelativeTurnout": 0.055366269165247
+                },
+                {
+                    "Name": "Geography",
+                    "Voters": 144,
+                    "NonVoters": 686,
+                    "Eligible": 830,
+                    "IsOtherItem": false,
+                    "Turnout": 17.3493975903614,
+                    "RelativeTurnout": 0.30664395229983
+                },
+                {
+                    "Name": "Golf Studies",
+                    "Voters": 1,
+                    "NonVoters": 700,
+                    "Eligible": 701,
+                    "IsOtherItem": false,
+                    "Turnout": 0.14265335235378,
+                    "RelativeTurnout": 0.00212947189097104
+                },
+                {
+                    "Name": "Health Services Management Cen",
+                    "Voters": 13,
+                    "NonVoters": 630,
+                    "Eligible": 643,
+                    "IsOtherItem": false,
+                    "Turnout": 2.02177293934681,
+                    "RelativeTurnout": 0.0276831345826235
+                },
+                {
+                    "Name": "History",
+                    "Voters": 157,
+                    "NonVoters": 648,
+                    "Eligible": 805,
+                    "IsOtherItem": false,
+                    "Turnout": 19.5031055900621,
+                    "RelativeTurnout": 0.334327086882453
+                },
+                {
+                    "Name": "Inst of Cancer / Genomic Sci",
+                    "Voters": 31,
+                    "NonVoters": 281,
+                    "Eligible": 312,
+                    "IsOtherItem": false,
+                    "Turnout": 9.93589743589744,
+                    "RelativeTurnout": 0.0660136286201022
+                },
+                {
+                    "Name": "Inst of Card Sciences",
+                    "Voters": 2,
+                    "NonVoters": 43,
+                    "Eligible": 45,
+                    "IsOtherItem": false,
+                    "Turnout": 4.44444444444444,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Inst of Immunol + Immunoth",
+                    "Voters": 9,
+                    "NonVoters": 82,
+                    "Eligible": 91,
+                    "IsOtherItem": false,
+                    "Turnout": 9.89010989010989,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Inst of Inflammation / Ageing",
+                    "Voters": 0,
+                    "NonVoters": 85,
+                    "Eligible": 85,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "International Development",
+                    "Voters": 86,
+                    "NonVoters": 520,
+                    "Eligible": 606,
+                    "IsOtherItem": false,
+                    "Turnout": 14.1914191419142,
+                    "RelativeTurnout": 0.183134582623509
+                },
+                {
+                    "Name": "Law",
+                    "Voters": 390,
+                    "NonVoters": 1700,
+                    "Eligible": 2090,
+                    "IsOtherItem": false,
+                    "Turnout": 18.6602870813397,
+                    "RelativeTurnout": 0.830494037478705
+                },
+                {
+                    "Name": "Management",
+                    "Voters": 276,
+                    "NonVoters": 2556,
+                    "Eligible": 2832,
+                    "IsOtherItem": false,
+                    "Turnout": 9.74576271186441,
+                    "RelativeTurnout": 0.587734241908007
+                },
+                {
+                    "Name": "Marketing",
+                    "Voters": 31,
+                    "NonVoters": 372,
+                    "Eligible": 403,
+                    "IsOtherItem": false,
+                    "Turnout": 7.69230769230769,
+                    "RelativeTurnout": 0.0660136286201022
+                },
+                {
+                    "Name": "Mathematics",
+                    "Voters": 203,
+                    "NonVoters": 1872,
+                    "Eligible": 2075,
+                    "IsOtherItem": false,
+                    "Turnout": 9.78313253012048,
+                    "RelativeTurnout": 0.432282793867121
+                },
+                {
+                    "Name": "Mechanical Engineering",
+                    "Voters": 176,
+                    "NonVoters": 953,
+                    "Eligible": 1129,
+                    "IsOtherItem": false,
+                    "Turnout": 15.5890168290523,
+                    "RelativeTurnout": 0.374787052810903
+                },
+                {
+                    "Name": "Metabolism and Systems Science",
+                    "Voters": 1,
+                    "NonVoters": 51,
+                    "Eligible": 52,
+                    "IsOtherItem": false,
+                    "Turnout": 1.92307692307692,
+                    "RelativeTurnout": 0.00212947189097104
+                },
+                {
+                    "Name": "Metallurgy & Materials",
+                    "Voters": 65,
+                    "NonVoters": 508,
+                    "Eligible": 573,
+                    "IsOtherItem": false,
+                    "Turnout": 11.3438045375218,
+                    "RelativeTurnout": 0.138415672913118
+                },
+                {
+                    "Name": "Modern Languages",
+                    "Voters": 48,
+                    "NonVoters": 429,
+                    "Eligible": 477,
+                    "IsOtherItem": false,
+                    "Turnout": 10.062893081761,
+                    "RelativeTurnout": 0.10221465076661
+                },
+                {
+                    "Name": "Music",
+                    "Voters": 26,
+                    "NonVoters": 176,
+                    "Eligible": 202,
+                    "IsOtherItem": false,
+                    "Turnout": 12.8712871287129,
+                    "RelativeTurnout": 0.055366269165247
+                },
+                {
+                    "Name": "Nursing and Midwifery",
+                    "Voters": 40,
+                    "NonVoters": 891,
+                    "Eligible": 931,
+                    "IsOtherItem": false,
+                    "Turnout": 4.29645542427497,
+                    "RelativeTurnout": 0.0851788756388416
+                },
+                {
+                    "Name": "People and Organisational Deve",
+                    "Voters": 0,
+                    "NonVoters": 36,
+                    "Eligible": 36,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Pharmacy",
+                    "Voters": 103,
+                    "NonVoters": 664,
+                    "Eligible": 767,
+                    "IsOtherItem": false,
+                    "Turnout": 13.4289439374185,
+                    "RelativeTurnout": 0.219335604770017
+                },
+                {
+                    "Name": "Phil, Theol & Religion",
+                    "Voters": 91,
+                    "NonVoters": 301,
+                    "Eligible": 392,
+                    "IsOtherItem": false,
+                    "Turnout": 23.2142857142857,
+                    "RelativeTurnout": 0.193781942078365
+                },
+                {
+                    "Name": "Philosophy",
+                    "Voters": 62,
+                    "NonVoters": 323,
+                    "Eligible": 385,
+                    "IsOtherItem": false,
+                    "Turnout": 16.1038961038961,
+                    "RelativeTurnout": 0.132027257240204
+                },
+                {
+                    "Name": "Physics & Astronomy",
+                    "Voters": 124,
+                    "NonVoters": 671,
+                    "Eligible": 795,
+                    "IsOtherItem": false,
+                    "Turnout": 15.5974842767296,
+                    "RelativeTurnout": 0.264054514480409
+                },
+                {
+                    "Name": "Physiotherapy",
+                    "Voters": 52,
+                    "NonVoters": 344,
+                    "Eligible": 396,
+                    "IsOtherItem": false,
+                    "Turnout": 13.1313131313131,
+                    "RelativeTurnout": 0.110732538330494
+                },
+                {
+                    "Name": "Political Sci & Intern'tl Stud",
+                    "Voters": 190,
+                    "NonVoters": 836,
+                    "Eligible": 1026,
+                    "IsOtherItem": false,
+                    "Turnout": 18.5185185185185,
+                    "RelativeTurnout": 0.404599659284497
+                },
+                {
+                    "Name": "School of Biosciences",
+                    "Voters": 229,
+                    "NonVoters": 1136,
+                    "Eligible": 1365,
+                    "IsOtherItem": false,
+                    "Turnout": 16.7765567765568,
+                    "RelativeTurnout": 0.487649063032368
+                },
+                {
+                    "Name": "School of Education",
+                    "Voters": 1,
+                    "NonVoters": 101,
+                    "Eligible": 102,
+                    "IsOtherItem": false,
+                    "Turnout": 0.980392156862745,
+                    "RelativeTurnout": 0.00212947189097104
+                },
+                {
+                    "Name": "School of Psychology",
+                    "Voters": 235,
+                    "NonVoters": 1636,
+                    "Eligible": 1871,
+                    "IsOtherItem": false,
+                    "Turnout": 12.5601282736505,
+                    "RelativeTurnout": 0.500425894378194
+                },
+                {
+                    "Name": "Shakespeare Institute",
+                    "Voters": 1,
+                    "NonVoters": 189,
+                    "Eligible": 190,
+                    "IsOtherItem": false,
+                    "Turnout": 0.526315789473684,
+                    "RelativeTurnout": 0.00212947189097104
+                },
+                {
+                    "Name": "Soc Policy, Sociology & Crimin",
+                    "Voters": 169,
+                    "NonVoters": 903,
+                    "Eligible": 1072,
+                    "IsOtherItem": false,
+                    "Turnout": 15.7649253731343,
+                    "RelativeTurnout": 0.359880749574106
+                },
+                {
+                    "Name": "Social Work & Social Care",
+                    "Voters": 14,
+                    "NonVoters": 401,
+                    "Eligible": 415,
+                    "IsOtherItem": false,
+                    "Turnout": 3.37349397590361,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Sport, Ex and Rehab Sciences",
+                    "Voters": 150,
+                    "NonVoters": 870,
+                    "Eligible": 1020,
+                    "IsOtherItem": false,
+                    "Turnout": 14.7058823529412,
+                    "RelativeTurnout": 0.319420783645656
+                },
+                {
+                    "Name": "Strategy and Int Business",
+                    "Voters": 46,
+                    "NonVoters": 533,
+                    "Eligible": 579,
+                    "IsOtherItem": false,
+                    "Turnout": 7.9447322970639,
+                    "RelativeTurnout": 0.0979557069846678
+                },
+                {
+                    "Name": "Teacher Education",
+                    "Voters": 5,
+                    "NonVoters": 1384,
+                    "Eligible": 1389,
+                    "IsOtherItem": false,
+                    "Turnout": 0.359971202303816,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Theology and Religion",
+                    "Voters": 39,
+                    "NonVoters": 244,
+                    "Eligible": 283,
+                    "IsOtherItem": false,
+                    "Turnout": 13.7809187279152,
+                    "RelativeTurnout": 0.0830494037478705
+                },
+                {
+                    "Name": "Wiley",
+                    "Voters": 4,
+                    "NonVoters": 792,
+                    "Eligible": 796,
+                    "IsOtherItem": false,
+                    "Turnout": 0.50251256281407,
+                    "RelativeTurnout": 0.00851788756388416
+                }
+            ]
+        },
+        {
+            "Name": "College",
+            "Items": [
+                {
+                    "Name": "All other values",
+                    "Voters": 80,
+                    "NonVoters": 2027,
+                    "Eligible": 2107,
+                    "IsOtherItem": true,
+                    "Turnout": 3.796867584243,
+                    "RelativeTurnout": 0.170357751277683
+                },
+                {
+                    "Name": "College of Arts and Law",
+                    "Voters": 1210,
+                    "NonVoters": 5961,
+                    "Eligible": 7171,
+                    "IsOtherItem": false,
+                    "Turnout": 16.8735183377493,
+                    "RelativeTurnout": 2.57666098807496
+                },
+                {
+                    "Name": "College of Engineering and Physical Sciences",
+                    "Voters": 1411,
+                    "NonVoters": 9303,
+                    "Eligible": 10714,
+                    "IsOtherItem": false,
+                    "Turnout": 13.1696845249207,
+                    "RelativeTurnout": 3.00468483816014
+                },
+                {
+                    "Name": "College of Life and Environmental Sciences",
+                    "Voters": 899,
+                    "NonVoters": 5806,
+                    "Eligible": 6705,
+                    "IsOtherItem": false,
+                    "Turnout": 13.4079045488441,
+                    "RelativeTurnout": 1.91439522998296
+                },
+                {
+                    "Name": "College of Medicine and Health",
+                    "Voters": 706,
+                    "NonVoters": 5542,
+                    "Eligible": 6248,
+                    "IsOtherItem": false,
+                    "Turnout": 11.2996158770807,
+                    "RelativeTurnout": 1.50340715502555
+                },
+                {
+                    "Name": "College of Social Sciences",
+                    "Voters": 1344,
+                    "NonVoters": 12671,
+                    "Eligible": 14015,
+                    "IsOtherItem": false,
+                    "Turnout": 9.58972529432751,
+                    "RelativeTurnout": 2.86201022146508
+                }
+            ]
+        },
+        {
+            "Name": "Societies",
+            "Items": [
+                {
+                    "Name": "13th Horror",
+                    "Voters": 5,
+                    "NonVoters": 20,
+                    "Eligible": 25,
+                    "IsOtherItem": false,
+                    "Turnout": 20.0,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "3Bugs Fringe Theatre Society",
+                    "Voters": 11,
+                    "NonVoters": 18,
+                    "Eligible": 29,
+                    "IsOtherItem": false,
+                    "Turnout": 37.9310344827586,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "A Cappella",
+                    "Voters": 14,
+                    "NonVoters": 25,
+                    "Eligible": 39,
+                    "IsOtherItem": false,
+                    "Turnout": 35.8974358974359,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "ABACUS",
+                    "Voters": 18,
+                    "NonVoters": 69,
+                    "Eligible": 87,
+                    "IsOtherItem": false,
+                    "Turnout": 20.6896551724138,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "Accounting and Finance",
+                    "Voters": 6,
+                    "NonVoters": 25,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 19.3548387096774,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Adventist",
+                    "Voters": 4,
+                    "NonVoters": 8,
+                    "Eligible": 12,
+                    "IsOtherItem": false,
+                    "Turnout": 33.3333333333333,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "African & Caribbean",
+                    "Voters": 120,
+                    "NonVoters": 427,
+                    "Eligible": 547,
+                    "IsOtherItem": false,
+                    "Turnout": 21.9378427787934,
+                    "RelativeTurnout": 0.255536626916525
+                },
+                {
+                    "Name": "Afropology",
+                    "Voters": 7,
+                    "NonVoters": 16,
+                    "Eligible": 23,
+                    "IsOtherItem": false,
+                    "Turnout": 30.4347826086957,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Ahlul Bayt",
+                    "Voters": 6,
+                    "NonVoters": 16,
+                    "Eligible": 22,
+                    "IsOtherItem": false,
+                    "Turnout": 27.2727272727273,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Ahmadiyya Muslim",
+                    "Voters": 4,
+                    "NonVoters": 10,
+                    "Eligible": 14,
+                    "IsOtherItem": false,
+                    "Turnout": 28.5714285714286,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "AlgoSoc",
+                    "Voters": 22,
+                    "NonVoters": 36,
+                    "Eligible": 58,
+                    "IsOtherItem": false,
+                    "Turnout": 37.9310344827586,
+                    "RelativeTurnout": 0.0468483816013629
+                },
+                {
+                    "Name": "Anime & Manga",
+                    "Voters": 30,
+                    "NonVoters": 118,
+                    "Eligible": 148,
+                    "IsOtherItem": false,
+                    "Turnout": 20.2702702702703,
+                    "RelativeTurnout": 0.0638841567291312
+                },
+                {
+                    "Name": "Art Society",
+                    "Voters": 54,
+                    "NonVoters": 120,
+                    "Eligible": 174,
+                    "IsOtherItem": false,
+                    "Turnout": 31.0344827586207,
+                    "RelativeTurnout": 0.114991482112436
+                },
+                {
+                    "Name": "Article 19",
+                    "Voters": 16,
+                    "NonVoters": 15,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 51.6129032258064,
+                    "RelativeTurnout": 0.0340715502555366
+                },
+                {
+                    "Name": "Autism Society",
+                    "Voters": 12,
+                    "NonVoters": 30,
+                    "Eligible": 42,
+                    "IsOtherItem": false,
+                    "Turnout": 28.5714285714286,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "BACAS",
+                    "Voters": 17,
+                    "NonVoters": 67,
+                    "Eligible": 84,
+                    "IsOtherItem": false,
+                    "Turnout": 20.2380952380952,
+                    "RelativeTurnout": 0.0362010221465077
+                },
+                {
+                    "Name": "Bad Film",
+                    "Voters": 22,
+                    "NonVoters": 49,
+                    "Eligible": 71,
+                    "IsOtherItem": false,
+                    "Turnout": 30.9859154929577,
+                    "RelativeTurnout": 0.0468483816013629
+                },
+                {
+                    "Name": "Baking",
+                    "Voters": 45,
+                    "NonVoters": 108,
+                    "Eligible": 153,
+                    "IsOtherItem": false,
+                    "Turnout": 29.4117647058824,
+                    "RelativeTurnout": 0.0958262350936968
+                },
+                {
+                    "Name": "BALADS",
+                    "Voters": 15,
+                    "NonVoters": 43,
+                    "Eligible": 58,
+                    "IsOtherItem": false,
+                    "Turnout": 25.8620689655172,
+                    "RelativeTurnout": 0.0319420783645656
+                },
+                {
+                    "Name": "Battle re-enactment",
+                    "Voters": 6,
+                    "NonVoters": 18,
+                    "Eligible": 24,
+                    "IsOtherItem": false,
+                    "Turnout": 25.0,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "BEDsoc",
+                    "Voters": 26,
+                    "NonVoters": 67,
+                    "Eligible": 93,
+                    "IsOtherItem": false,
+                    "Turnout": 27.9569892473118,
+                    "RelativeTurnout": 0.055366269165247
+                },
+                {
+                    "Name": "Beer Pong Society",
+                    "Voters": 7,
+                    "NonVoters": 18,
+                    "Eligible": 25,
+                    "IsOtherItem": false,
+                    "Turnout": 28.0,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Benchball",
+                    "Voters": 78,
+                    "NonVoters": 136,
+                    "Eligible": 214,
+                    "IsOtherItem": false,
+                    "Turnout": 36.4485981308411,
+                    "RelativeTurnout": 0.166098807495741
+                },
+                {
+                    "Name": "Bengali",
+                    "Voters": 14,
+                    "NonVoters": 41,
+                    "Eligible": 55,
+                    "IsOtherItem": false,
+                    "Turnout": 25.4545454545455,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Bhangra",
+                    "Voters": 10,
+                    "NonVoters": 44,
+                    "Eligible": 54,
+                    "IsOtherItem": false,
+                    "Turnout": 18.5185185185185,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "BioSoc",
+                    "Voters": 65,
+                    "NonVoters": 127,
+                    "Eligible": 192,
+                    "IsOtherItem": false,
+                    "Turnout": 33.8541666666667,
+                    "RelativeTurnout": 0.138415672913118
+                },
+                {
+                    "Name": "Birmingham Black and Ethnic Minority Scientists",
+                    "Voters": 4,
+                    "NonVoters": 9,
+                    "Eligible": 13,
+                    "IsOtherItem": false,
+                    "Turnout": 30.7692307692308,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Birmingham Investment and Finance",
+                    "Voters": 94,
+                    "NonVoters": 276,
+                    "Eligible": 370,
+                    "IsOtherItem": false,
+                    "Turnout": 25.4054054054054,
+                    "RelativeTurnout": 0.200170357751278
+                },
+                {
+                    "Name": "Birmingham Marxist Society",
+                    "Voters": 2,
+                    "NonVoters": 11,
+                    "Eligible": 13,
+                    "IsOtherItem": false,
+                    "Turnout": 15.3846153846154,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Black Law Students Society",
+                    "Voters": 3,
+                    "NonVoters": 27,
+                    "Eligible": 30,
+                    "IsOtherItem": false,
+                    "Turnout": 10.0,
+                    "RelativeTurnout": 0.00638841567291312
+                },
+                {
+                    "Name": "Book group",
+                    "Voters": 30,
+                    "NonVoters": 85,
+                    "Eligible": 115,
+                    "IsOtherItem": false,
+                    "Turnout": 26.0869565217391,
+                    "RelativeTurnout": 0.0638841567291312
+                },
+                {
+                    "Name": "Brumski & Board",
+                    "Voters": 119,
+                    "NonVoters": 278,
+                    "Eligible": 397,
+                    "IsOtherItem": false,
+                    "Turnout": 29.9748110831234,
+                    "RelativeTurnout": 0.253407155025554
+                },
+                {
+                    "Name": "Brumsurf",
+                    "Voters": 23,
+                    "NonVoters": 78,
+                    "Eligible": 101,
+                    "IsOtherItem": false,
+                    "Turnout": 22.7722772277228,
+                    "RelativeTurnout": 0.0489778534923339
+                },
+                {
+                    "Name": "Bubble Tea",
+                    "Voters": 1,
+                    "NonVoters": 21,
+                    "Eligible": 22,
+                    "IsOtherItem": false,
+                    "Turnout": 4.54545454545455,
+                    "RelativeTurnout": 0.00212947189097104
+                },
+                {
+                    "Name": "Buddhist Meditation",
+                    "Voters": 23,
+                    "NonVoters": 35,
+                    "Eligible": 58,
+                    "IsOtherItem": false,
+                    "Turnout": 39.6551724137931,
+                    "RelativeTurnout": 0.0489778534923339
+                },
+                {
+                    "Name": "BUDS",
+                    "Voters": 109,
+                    "NonVoters": 265,
+                    "Eligible": 374,
+                    "IsOtherItem": false,
+                    "Turnout": 29.144385026738,
+                    "RelativeTurnout": 0.232112436115843
+                },
+                {
+                    "Name": "Burn FM.com",
+                    "Voters": 39,
+                    "NonVoters": 52,
+                    "Eligible": 91,
+                    "IsOtherItem": false,
+                    "Turnout": 42.8571428571429,
+                    "RelativeTurnout": 0.0830494037478705
+                },
+                {
+                    "Name": "Business",
+                    "Voters": 81,
+                    "NonVoters": 120,
+                    "Eligible": 201,
+                    "IsOtherItem": false,
+                    "Turnout": 40.2985074626866,
+                    "RelativeTurnout": 0.172487223168654
+                },
+                {
+                    "Name": "Canadian Society",
+                    "Voters": 12,
+                    "NonVoters": 49,
+                    "Eligible": 61,
+                    "IsOtherItem": false,
+                    "Turnout": 19.672131147541,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "Caribbean Union",
+                    "Voters": 6,
+                    "NonVoters": 40,
+                    "Eligible": 46,
+                    "IsOtherItem": false,
+                    "Turnout": 13.0434782608696,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Catholic",
+                    "Voters": 24,
+                    "NonVoters": 44,
+                    "Eligible": 68,
+                    "IsOtherItem": false,
+                    "Turnout": 35.2941176470588,
+                    "RelativeTurnout": 0.0511073253833049
+                },
+                {
+                    "Name": "Cheese",
+                    "Voters": 18,
+                    "NonVoters": 6,
+                    "Eligible": 24,
+                    "IsOtherItem": false,
+                    "Turnout": 75.0,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "Chess",
+                    "Voters": 14,
+                    "NonVoters": 44,
+                    "Eligible": 58,
+                    "IsOtherItem": false,
+                    "Turnout": 24.1379310344828,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Chinese",
+                    "Voters": 4,
+                    "NonVoters": 40,
+                    "Eligible": 44,
+                    "IsOtherItem": false,
+                    "Turnout": 9.09090909090909,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Chinese Christians Fellowship",
+                    "Voters": 2,
+                    "NonVoters": 9,
+                    "Eligible": 11,
+                    "IsOtherItem": false,
+                    "Turnout": 18.1818181818182,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Civil Engineering",
+                    "Voters": 25,
+                    "NonVoters": 68,
+                    "Eligible": 93,
+                    "IsOtherItem": false,
+                    "Turnout": 26.8817204301075,
+                    "RelativeTurnout": 0.053236797274276
+                },
+                {
+                    "Name": "Cocktail",
+                    "Voters": 114,
+                    "NonVoters": 264,
+                    "Eligible": 378,
+                    "IsOtherItem": false,
+                    "Turnout": 30.1587301587302,
+                    "RelativeTurnout": 0.242759795570698
+                },
+                {
+                    "Name": "Commuter Students",
+                    "Voters": 5,
+                    "NonVoters": 28,
+                    "Eligible": 33,
+                    "IsOtherItem": false,
+                    "Turnout": 15.1515151515152,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Computer & Videogames",
+                    "Voters": 10,
+                    "NonVoters": 46,
+                    "Eligible": 56,
+                    "IsOtherItem": false,
+                    "Turnout": 17.8571428571429,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Computer Science Society (CSS)",
+                    "Voters": 148,
+                    "NonVoters": 328,
+                    "Eligible": 476,
+                    "IsOtherItem": false,
+                    "Turnout": 31.0924369747899,
+                    "RelativeTurnout": 0.315161839863714
+                },
+                {
+                    "Name": "Craft",
+                    "Voters": 60,
+                    "NonVoters": 121,
+                    "Eligible": 181,
+                    "IsOtherItem": false,
+                    "Turnout": 33.1491712707182,
+                    "RelativeTurnout": 0.127768313458262
+                },
+                {
+                    "Name": "Criminology",
+                    "Voters": 23,
+                    "NonVoters": 67,
+                    "Eligible": 90,
+                    "IsOtherItem": false,
+                    "Turnout": 25.5555555555556,
+                    "RelativeTurnout": 0.0489778534923339
+                },
+                {
+                    "Name": "Darts Society",
+                    "Voters": 40,
+                    "NonVoters": 77,
+                    "Eligible": 117,
+                    "IsOtherItem": false,
+                    "Turnout": 34.1880341880342,
+                    "RelativeTurnout": 0.0851788756388416
+                },
+                {
+                    "Name": "DCL",
+                    "Voters": 10,
+                    "NonVoters": 41,
+                    "Eligible": 51,
+                    "IsOtherItem": false,
+                    "Turnout": 19.6078431372549,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Debating",
+                    "Voters": 33,
+                    "NonVoters": 57,
+                    "Eligible": 90,
+                    "IsOtherItem": false,
+                    "Turnout": 36.6666666666667,
+                    "RelativeTurnout": 0.0702725724020443
+                },
+                {
+                    "Name": "Deeper Life",
+                    "Voters": 5,
+                    "NonVoters": 6,
+                    "Eligible": 11,
+                    "IsOtherItem": false,
+                    "Turnout": 45.4545454545455,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Dental Society (BUDSS)",
+                    "Voters": 39,
+                    "NonVoters": 189,
+                    "Eligible": 228,
+                    "IsOtherItem": false,
+                    "Turnout": 17.1052631578947,
+                    "RelativeTurnout": 0.0830494037478705
+                },
+                {
+                    "Name": "DJ",
+                    "Voters": 30,
+                    "NonVoters": 92,
+                    "Eligible": 122,
+                    "IsOtherItem": false,
+                    "Turnout": 24.5901639344262,
+                    "RelativeTurnout": 0.0638841567291312
+                },
+                {
+                    "Name": "Doctor Who",
+                    "Voters": 37,
+                    "NonVoters": 64,
+                    "Eligible": 101,
+                    "IsOtherItem": false,
+                    "Turnout": 36.6336633663366,
+                    "RelativeTurnout": 0.0787904599659284
+                },
+                {
+                    "Name": "East African",
+                    "Voters": 18,
+                    "NonVoters": 48,
+                    "Eligible": 66,
+                    "IsOtherItem": false,
+                    "Turnout": 27.2727272727273,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "EconSoc",
+                    "Voters": 52,
+                    "NonVoters": 188,
+                    "Eligible": 240,
+                    "IsOtherItem": false,
+                    "Turnout": 21.6666666666667,
+                    "RelativeTurnout": 0.110732538330494
+                },
+                {
+                    "Name": "ELAL (English Language and Linguistics)",
+                    "Voters": 11,
+                    "NonVoters": 20,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 35.4838709677419,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "ELSA",
+                    "Voters": 46,
+                    "NonVoters": 95,
+                    "Eligible": 141,
+                    "IsOtherItem": false,
+                    "Turnout": 32.6241134751773,
+                    "RelativeTurnout": 0.0979557069846678
+                },
+                {
+                    "Name": "Enactus",
+                    "Voters": 13,
+                    "NonVoters": 11,
+                    "Eligible": 24,
+                    "IsOtherItem": false,
+                    "Turnout": 54.1666666666667,
+                    "RelativeTurnout": 0.0276831345826235
+                },
+                {
+                    "Name": "Esports",
+                    "Voters": 3,
+                    "NonVoters": 18,
+                    "Eligible": 21,
+                    "IsOtherItem": false,
+                    "Turnout": 14.2857142857143,
+                    "RelativeTurnout": 0.00638841567291312
+                },
+                {
+                    "Name": "EU Affairs",
+                    "Voters": 12,
+                    "NonVoters": 9,
+                    "Eligible": 21,
+                    "IsOtherItem": false,
+                    "Turnout": 57.1428571428571,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "Filipino",
+                    "Voters": 9,
+                    "NonVoters": 52,
+                    "Eligible": 61,
+                    "IsOtherItem": false,
+                    "Turnout": 14.7540983606557,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Filmmaking",
+                    "Voters": 25,
+                    "NonVoters": 51,
+                    "Eligible": 76,
+                    "IsOtherItem": false,
+                    "Turnout": 32.8947368421053,
+                    "RelativeTurnout": 0.053236797274276
+                },
+                {
+                    "Name": "Filmsoc",
+                    "Voters": 33,
+                    "NonVoters": 71,
+                    "Eligible": 104,
+                    "IsOtherItem": false,
+                    "Turnout": 31.7307692307692,
+                    "RelativeTurnout": 0.0702725724020443
+                },
+                {
+                    "Name": "Fintech",
+                    "Voters": 6,
+                    "NonVoters": 12,
+                    "Eligible": 18,
+                    "IsOtherItem": false,
+                    "Turnout": 33.3333333333333,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "First Love",
+                    "Voters": 12,
+                    "NonVoters": 32,
+                    "Eligible": 44,
+                    "IsOtherItem": false,
+                    "Turnout": 27.2727272727273,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "Fitness and Wellbeing Society",
+                    "Voters": 19,
+                    "NonVoters": 61,
+                    "Eligible": 80,
+                    "IsOtherItem": false,
+                    "Turnout": 23.75,
+                    "RelativeTurnout": 0.0404599659284497
+                },
+                {
+                    "Name": "Folk",
+                    "Voters": 3,
+                    "NonVoters": 11,
+                    "Eligible": 14,
+                    "IsOtherItem": false,
+                    "Turnout": 21.4285714285714,
+                    "RelativeTurnout": 0.00638841567291312
+                },
+                {
+                    "Name": "Friends of Palestine",
+                    "Voters": 22,
+                    "NonVoters": 11,
+                    "Eligible": 33,
+                    "IsOtherItem": false,
+                    "Turnout": 66.6666666666666,
+                    "RelativeTurnout": 0.0468483816013629
+                },
+                {
+                    "Name": "Games Development",
+                    "Voters": 5,
+                    "NonVoters": 18,
+                    "Eligible": 23,
+                    "IsOtherItem": false,
+                    "Turnout": 21.7391304347826,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "German",
+                    "Voters": 4,
+                    "NonVoters": 12,
+                    "Eligible": 16,
+                    "IsOtherItem": false,
+                    "Turnout": 25.0,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Ghanaian",
+                    "Voters": 12,
+                    "NonVoters": 58,
+                    "Eligible": 70,
+                    "IsOtherItem": false,
+                    "Turnout": 17.1428571428571,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "Gilbert and Sullivan",
+                    "Voters": 12,
+                    "NonVoters": 22,
+                    "Eligible": 34,
+                    "IsOtherItem": false,
+                    "Turnout": 35.2941176470588,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "GMTG",
+                    "Voters": 40,
+                    "NonVoters": 57,
+                    "Eligible": 97,
+                    "IsOtherItem": false,
+                    "Turnout": 41.2371134020618,
+                    "RelativeTurnout": 0.0851788756388416
+                },
+                {
+                    "Name": "Gospel Choir",
+                    "Voters": 2,
+                    "NonVoters": 13,
+                    "Eligible": 15,
+                    "IsOtherItem": false,
+                    "Turnout": 13.3333333333333,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Green Party",
+                    "Voters": 8,
+                    "NonVoters": 5,
+                    "Eligible": 13,
+                    "IsOtherItem": false,
+                    "Turnout": 61.5384615384615,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "Guild TV",
+                    "Voters": 13,
+                    "NonVoters": 25,
+                    "Eligible": 38,
+                    "IsOtherItem": false,
+                    "Turnout": 34.2105263157895,
+                    "RelativeTurnout": 0.0276831345826235
+                },
+                {
+                    "Name": "Hide and Seek Society",
+                    "Voters": 11,
+                    "NonVoters": 28,
+                    "Eligible": 39,
+                    "IsOtherItem": false,
+                    "Turnout": 28.2051282051282,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "Hindu",
+                    "Voters": 131,
+                    "NonVoters": 186,
+                    "Eligible": 317,
+                    "IsOtherItem": false,
+                    "Turnout": 41.3249211356467,
+                    "RelativeTurnout": 0.278960817717206
+                },
+                {
+                    "Name": "History",
+                    "Voters": 48,
+                    "NonVoters": 114,
+                    "Eligible": 162,
+                    "IsOtherItem": false,
+                    "Turnout": 29.6296296296296,
+                    "RelativeTurnout": 0.10221465076661
+                },
+                {
+                    "Name": "History of Art",
+                    "Voters": 8,
+                    "NonVoters": 33,
+                    "Eligible": 41,
+                    "IsOtherItem": false,
+                    "Turnout": 19.5121951219512,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "Hong Kong Cultural",
+                    "Voters": 5,
+                    "NonVoters": 13,
+                    "Eligible": 18,
+                    "IsOtherItem": false,
+                    "Turnout": 27.7777777777778,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Hong Kong PASS",
+                    "Voters": 7,
+                    "NonVoters": 36,
+                    "Eligible": 43,
+                    "IsOtherItem": false,
+                    "Turnout": 16.2790697674419,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Hookers and Stitchers",
+                    "Voters": 34,
+                    "NonVoters": 71,
+                    "Eligible": 105,
+                    "IsOtherItem": false,
+                    "Turnout": 32.3809523809524,
+                    "RelativeTurnout": 0.0724020442930153
+                },
+                {
+                    "Name": "Human Resources Society",
+                    "Voters": 6,
+                    "NonVoters": 13,
+                    "Eligible": 19,
+                    "IsOtherItem": false,
+                    "Turnout": 31.578947368421,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Ice Skating Society",
+                    "Voters": 13,
+                    "NonVoters": 34,
+                    "Eligible": 47,
+                    "IsOtherItem": false,
+                    "Turnout": 27.6595744680851,
+                    "RelativeTurnout": 0.0276831345826235
+                },
+                {
+                    "Name": "Indian",
+                    "Voters": 75,
+                    "NonVoters": 92,
+                    "Eligible": 167,
+                    "IsOtherItem": false,
+                    "Turnout": 44.9101796407186,
+                    "RelativeTurnout": 0.159710391822828
+                },
+                {
+                    "Name": "Indonesian",
+                    "Voters": 16,
+                    "NonVoters": 29,
+                    "Eligible": 45,
+                    "IsOtherItem": false,
+                    "Turnout": 35.5555555555556,
+                    "RelativeTurnout": 0.0340715502555366
+                },
+                {
+                    "Name": "Infinity Stage Company",
+                    "Voters": 17,
+                    "NonVoters": 6,
+                    "Eligible": 23,
+                    "IsOtherItem": false,
+                    "Turnout": 73.9130434782609,
+                    "RelativeTurnout": 0.0362010221465077
+                },
+                {
+                    "Name": "International Development Society",
+                    "Voters": 16,
+                    "NonVoters": 21,
+                    "Eligible": 37,
+                    "IsOtherItem": false,
+                    "Turnout": 43.2432432432432,
+                    "RelativeTurnout": 0.0340715502555366
+                },
+                {
+                    "Name": "Islamic",
+                    "Voters": 243,
+                    "NonVoters": 430,
+                    "Eligible": 673,
+                    "IsOtherItem": false,
+                    "Turnout": 36.1069836552749,
+                    "RelativeTurnout": 0.517461669505962
+                },
+                {
+                    "Name": "Islamic Arts and Heritage",
+                    "Voters": 10,
+                    "NonVoters": 11,
+                    "Eligible": 21,
+                    "IsOtherItem": false,
+                    "Turnout": 47.6190476190476,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Islamic Sports",
+                    "Voters": 9,
+                    "NonVoters": 5,
+                    "Eligible": 14,
+                    "IsOtherItem": false,
+                    "Turnout": 64.2857142857143,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Israel",
+                    "Voters": 5,
+                    "NonVoters": 10,
+                    "Eligible": 15,
+                    "IsOtherItem": false,
+                    "Turnout": 33.3333333333333,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Italian",
+                    "Voters": 7,
+                    "NonVoters": 24,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 22.5806451612903,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Jain Society",
+                    "Voters": 45,
+                    "NonVoters": 32,
+                    "Eligible": 77,
+                    "IsOtherItem": false,
+                    "Turnout": 58.4415584415584,
+                    "RelativeTurnout": 0.0958262350936968
+                },
+                {
+                    "Name": "Japan Society",
+                    "Voters": 24,
+                    "NonVoters": 75,
+                    "Eligible": 99,
+                    "IsOtherItem": false,
+                    "Turnout": 24.2424242424242,
+                    "RelativeTurnout": 0.0511073253833049
+                },
+                {
+                    "Name": "Jazz Funk & Soul",
+                    "Voters": 10,
+                    "NonVoters": 42,
+                    "Eligible": 52,
+                    "IsOtherItem": false,
+                    "Turnout": 19.2307692307692,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Jewish",
+                    "Voters": 36,
+                    "NonVoters": 108,
+                    "Eligible": 144,
+                    "IsOtherItem": false,
+                    "Turnout": 25.0,
+                    "RelativeTurnout": 0.0766609880749574
+                },
+                {
+                    "Name": "KCover",
+                    "Voters": 26,
+                    "NonVoters": 154,
+                    "Eligible": 180,
+                    "IsOtherItem": false,
+                    "Turnout": 14.4444444444444,
+                    "RelativeTurnout": 0.055366269165247
+                },
+                {
+                    "Name": "Kickboxing",
+                    "Voters": 27,
+                    "NonVoters": 71,
+                    "Eligible": 98,
+                    "IsOtherItem": false,
+                    "Turnout": 27.5510204081633,
+                    "RelativeTurnout": 0.057495741056218
+                },
+                {
+                    "Name": "Korea",
+                    "Voters": 15,
+                    "NonVoters": 55,
+                    "Eligible": 70,
+                    "IsOtherItem": false,
+                    "Turnout": 21.4285714285714,
+                    "RelativeTurnout": 0.0319420783645656
+                },
+                {
+                    "Name": "Labour",
+                    "Voters": 23,
+                    "NonVoters": 21,
+                    "Eligible": 44,
+                    "IsOtherItem": false,
+                    "Turnout": 52.2727272727273,
+                    "RelativeTurnout": 0.0489778534923339
+                },
+                {
+                    "Name": "LARP",
+                    "Voters": 20,
+                    "NonVoters": 17,
+                    "Eligible": 37,
+                    "IsOtherItem": false,
+                    "Turnout": 54.0540540540541,
+                    "RelativeTurnout": 0.0425894378194208
+                },
+                {
+                    "Name": "LATAM (Latino American)",
+                    "Voters": 7,
+                    "NonVoters": 12,
+                    "Eligible": 19,
+                    "IsOtherItem": false,
+                    "Turnout": 36.8421052631579,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Law for Non-Law",
+                    "Voters": 16,
+                    "NonVoters": 34,
+                    "Eligible": 50,
+                    "IsOtherItem": false,
+                    "Turnout": 32.0,
+                    "RelativeTurnout": 0.0340715502555366
+                },
+                {
+                    "Name": "Liberal Arts & Natural Sciences",
+                    "Voters": 41,
+                    "NonVoters": 93,
+                    "Eligible": 134,
+                    "IsOtherItem": false,
+                    "Turnout": 30.5970149253731,
+                    "RelativeTurnout": 0.0873083475298126
+                },
+                {
+                    "Name": "Linguist",
+                    "Voters": 9,
+                    "NonVoters": 27,
+                    "Eligible": 36,
+                    "IsOtherItem": false,
+                    "Turnout": 25.0,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "LUM Soc",
+                    "Voters": 34,
+                    "NonVoters": 105,
+                    "Eligible": 139,
+                    "IsOtherItem": false,
+                    "Turnout": 24.4604316546763,
+                    "RelativeTurnout": 0.0724020442930153
+                },
+                {
+                    "Name": "Malaysian",
+                    "Voters": 25,
+                    "NonVoters": 76,
+                    "Eligible": 101,
+                    "IsOtherItem": false,
+                    "Turnout": 24.7524752475248,
+                    "RelativeTurnout": 0.053236797274276
+                },
+                {
+                    "Name": "Marketing",
+                    "Voters": 27,
+                    "NonVoters": 58,
+                    "Eligible": 85,
+                    "IsOtherItem": false,
+                    "Turnout": 31.7647058823529,
+                    "RelativeTurnout": 0.057495741056218
+                },
+                {
+                    "Name": "Mathsoc",
+                    "Voters": 77,
+                    "NonVoters": 199,
+                    "Eligible": 276,
+                    "IsOtherItem": false,
+                    "Turnout": 27.8985507246377,
+                    "RelativeTurnout": 0.16396933560477
+                },
+                {
+                    "Name": "Meal Prep",
+                    "Voters": 5,
+                    "NonVoters": 14,
+                    "Eligible": 19,
+                    "IsOtherItem": false,
+                    "Turnout": 26.3157894736842,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Mechanical Engineering",
+                    "Voters": 33,
+                    "NonVoters": 102,
+                    "Eligible": 135,
+                    "IsOtherItem": false,
+                    "Turnout": 24.4444444444444,
+                    "RelativeTurnout": 0.0702725724020443
+                },
+                {
+                    "Name": "Metal",
+                    "Voters": 22,
+                    "NonVoters": 95,
+                    "Eligible": 117,
+                    "IsOtherItem": false,
+                    "Turnout": 18.8034188034188,
+                    "RelativeTurnout": 0.0468483816013629
+                },
+                {
+                    "Name": "Middle earth",
+                    "Voters": 6,
+                    "NonVoters": 13,
+                    "Eligible": 19,
+                    "IsOtherItem": false,
+                    "Turnout": 31.578947368421,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Mixed Martial Arts",
+                    "Voters": 73,
+                    "NonVoters": 239,
+                    "Eligible": 312,
+                    "IsOtherItem": false,
+                    "Turnout": 23.3974358974359,
+                    "RelativeTurnout": 0.155451448040886
+                },
+                {
+                    "Name": "Model United Nations",
+                    "Voters": 17,
+                    "NonVoters": 31,
+                    "Eligible": 48,
+                    "IsOtherItem": false,
+                    "Turnout": 35.4166666666667,
+                    "RelativeTurnout": 0.0362010221465077
+                },
+                {
+                    "Name": "Modern Languages",
+                    "Voters": 20,
+                    "NonVoters": 65,
+                    "Eligible": 85,
+                    "IsOtherItem": false,
+                    "Turnout": 23.5294117647059,
+                    "RelativeTurnout": 0.0425894378194208
+                },
+                {
+                    "Name": "Mooting",
+                    "Voters": 2,
+                    "NonVoters": 9,
+                    "Eligible": 11,
+                    "IsOtherItem": false,
+                    "Turnout": 18.1818181818182,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Mountaineering",
+                    "Voters": 47,
+                    "NonVoters": 139,
+                    "Eligible": 186,
+                    "IsOtherItem": false,
+                    "Turnout": 25.2688172043011,
+                    "RelativeTurnout": 0.100085178875639
+                },
+                {
+                    "Name": "Muay Thai Boxing",
+                    "Voters": 11,
+                    "NonVoters": 55,
+                    "Eligible": 66,
+                    "IsOtherItem": false,
+                    "Turnout": 16.6666666666667,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "Navigators",
+                    "Voters": 5,
+                    "NonVoters": 13,
+                    "Eligible": 18,
+                    "IsOtherItem": false,
+                    "Turnout": 27.7777777777778,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Nepalese",
+                    "Voters": 4,
+                    "NonVoters": 31,
+                    "Eligible": 35,
+                    "IsOtherItem": false,
+                    "Turnout": 11.4285714285714,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Nerdsoc",
+                    "Voters": 17,
+                    "NonVoters": 31,
+                    "Eligible": 48,
+                    "IsOtherItem": false,
+                    "Turnout": 35.4166666666667,
+                    "RelativeTurnout": 0.0362010221465077
+                },
+                {
+                    "Name": "North African",
+                    "Voters": 2,
+                    "NonVoters": 9,
+                    "Eligible": 11,
+                    "IsOtherItem": false,
+                    "Turnout": 18.1818181818182,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Nuclear and Materials",
+                    "Voters": 5,
+                    "NonVoters": 19,
+                    "Eligible": 24,
+                    "IsOtherItem": false,
+                    "Turnout": 20.8333333333333,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Nursing Netball",
+                    "Voters": 15,
+                    "NonVoters": 27,
+                    "Eligible": 42,
+                    "IsOtherItem": false,
+                    "Turnout": 35.7142857142857,
+                    "RelativeTurnout": 0.0319420783645656
+                },
+                {
+                    "Name": "Nursing Society",
+                    "Voters": 5,
+                    "NonVoters": 51,
+                    "Eligible": 56,
+                    "IsOtherItem": false,
+                    "Turnout": 8.92857142857143,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Open Mic",
+                    "Voters": 3,
+                    "NonVoters": 11,
+                    "Eligible": 14,
+                    "IsOtherItem": false,
+                    "Turnout": 21.4285714285714,
+                    "RelativeTurnout": 0.00638841567291312
+                },
+                {
+                    "Name": "oSTEM",
+                    "Voters": 24,
+                    "NonVoters": 30,
+                    "Eligible": 54,
+                    "IsOtherItem": false,
+                    "Turnout": 44.4444444444444,
+                    "RelativeTurnout": 0.0511073253833049
+                },
+                {
+                    "Name": "Pakistan",
+                    "Voters": 19,
+                    "NonVoters": 79,
+                    "Eligible": 98,
+                    "IsOtherItem": false,
+                    "Turnout": 19.3877551020408,
+                    "RelativeTurnout": 0.0404599659284497
+                },
+                {
+                    "Name": "Panto",
+                    "Voters": 43,
+                    "NonVoters": 20,
+                    "Eligible": 63,
+                    "IsOtherItem": false,
+                    "Turnout": 68.2539682539682,
+                    "RelativeTurnout": 0.0915672913117547
+                },
+                {
+                    "Name": "Pentecostal Christians",
+                    "Voters": 17,
+                    "NonVoters": 38,
+                    "Eligible": 55,
+                    "IsOtherItem": false,
+                    "Turnout": 30.9090909090909,
+                    "RelativeTurnout": 0.0362010221465077
+                },
+                {
+                    "Name": "Pharmaceutical",
+                    "Voters": 13,
+                    "NonVoters": 36,
+                    "Eligible": 49,
+                    "IsOtherItem": false,
+                    "Turnout": 26.530612244898,
+                    "RelativeTurnout": 0.0276831345826235
+                },
+                {
+                    "Name": "Philosophy",
+                    "Voters": 37,
+                    "NonVoters": 79,
+                    "Eligible": 116,
+                    "IsOtherItem": false,
+                    "Turnout": 31.8965517241379,
+                    "RelativeTurnout": 0.0787904599659284
+                },
+                {
+                    "Name": "PhotoSoc",
+                    "Voters": 17,
+                    "NonVoters": 39,
+                    "Eligible": 56,
+                    "IsOtherItem": false,
+                    "Turnout": 30.3571428571429,
+                    "RelativeTurnout": 0.0362010221465077
+                },
+                {
+                    "Name": "Pilates Society",
+                    "Voters": 26,
+                    "NonVoters": 64,
+                    "Eligible": 90,
+                    "IsOtherItem": false,
+                    "Turnout": 28.8888888888889,
+                    "RelativeTurnout": 0.055366269165247
+                },
+                {
+                    "Name": "Planning",
+                    "Voters": 10,
+                    "NonVoters": 26,
+                    "Eligible": 36,
+                    "IsOtherItem": false,
+                    "Turnout": 27.7777777777778,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Plant Society",
+                    "Voters": 8,
+                    "NonVoters": 12,
+                    "Eligible": 20,
+                    "IsOtherItem": false,
+                    "Turnout": 40.0,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "Pokemon",
+                    "Voters": 15,
+                    "NonVoters": 28,
+                    "Eligible": 43,
+                    "IsOtherItem": false,
+                    "Turnout": 34.8837209302326,
+                    "RelativeTurnout": 0.0319420783645656
+                },
+                {
+                    "Name": "Poker",
+                    "Voters": 14,
+                    "NonVoters": 30,
+                    "Eligible": 44,
+                    "IsOtherItem": false,
+                    "Turnout": 31.8181818181818,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Pole Fitness",
+                    "Voters": 41,
+                    "NonVoters": 152,
+                    "Eligible": 193,
+                    "IsOtherItem": false,
+                    "Turnout": 21.2435233160622,
+                    "RelativeTurnout": 0.0873083475298126
+                },
+                {
+                    "Name": "Politics",
+                    "Voters": 76,
+                    "NonVoters": 140,
+                    "Eligible": 216,
+                    "IsOtherItem": false,
+                    "Turnout": 35.1851851851852,
+                    "RelativeTurnout": 0.161839863713799
+                },
+                {
+                    "Name": "Powerlifting",
+                    "Voters": 14,
+                    "NonVoters": 57,
+                    "Eligible": 71,
+                    "IsOtherItem": false,
+                    "Turnout": 19.7183098591549,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Psychology",
+                    "Voters": 40,
+                    "NonVoters": 124,
+                    "Eligible": 164,
+                    "IsOtherItem": false,
+                    "Turnout": 24.390243902439,
+                    "RelativeTurnout": 0.0851788756388416
+                },
+                {
+                    "Name": "Punjabi",
+                    "Voters": 23,
+                    "NonVoters": 116,
+                    "Eligible": 139,
+                    "IsOtherItem": false,
+                    "Turnout": 16.5467625899281,
+                    "RelativeTurnout": 0.0489778534923339
+                },
+                {
+                    "Name": "Quiz Society",
+                    "Voters": 20,
+                    "NonVoters": 37,
+                    "Eligible": 57,
+                    "IsOtherItem": false,
+                    "Turnout": 35.0877192982456,
+                    "RelativeTurnout": 0.0425894378194208
+                },
+                {
+                    "Name": "RailSoc",
+                    "Voters": 9,
+                    "NonVoters": 22,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 29.0322580645161,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Real Ale & Cider",
+                    "Voters": 12,
+                    "NonVoters": 31,
+                    "Eligible": 43,
+                    "IsOtherItem": false,
+                    "Turnout": 27.906976744186,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "Redbrick",
+                    "Voters": 68,
+                    "NonVoters": 117,
+                    "Eligible": 185,
+                    "IsOtherItem": false,
+                    "Turnout": 36.7567567567568,
+                    "RelativeTurnout": 0.144804088586031
+                },
+                {
+                    "Name": "Rollerskate Society",
+                    "Voters": 32,
+                    "NonVoters": 46,
+                    "Eligible": 78,
+                    "IsOtherItem": false,
+                    "Turnout": 41.025641025641,
+                    "RelativeTurnout": 0.0681431005110732
+                },
+                {
+                    "Name": "Roundnet",
+                    "Voters": 10,
+                    "NonVoters": 8,
+                    "Eligible": 18,
+                    "IsOtherItem": false,
+                    "Turnout": 55.5555555555556,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Russian Speaking Society",
+                    "Voters": 4,
+                    "NonVoters": 23,
+                    "Eligible": 27,
+                    "IsOtherItem": false,
+                    "Turnout": 14.8148148148148,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Saudi",
+                    "Voters": 5,
+                    "NonVoters": 41,
+                    "Eligible": 46,
+                    "IsOtherItem": false,
+                    "Turnout": 10.8695652173913,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Scouts & Guides",
+                    "Voters": 14,
+                    "NonVoters": 24,
+                    "Eligible": 38,
+                    "IsOtherItem": false,
+                    "Turnout": 36.8421052631579,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Sign Language",
+                    "Voters": 19,
+                    "NonVoters": 39,
+                    "Eligible": 58,
+                    "IsOtherItem": false,
+                    "Turnout": 32.7586206896552,
+                    "RelativeTurnout": 0.0404599659284497
+                },
+                {
+                    "Name": "Sikh",
+                    "Voters": 18,
+                    "NonVoters": 99,
+                    "Eligible": 117,
+                    "IsOtherItem": false,
+                    "Turnout": 15.3846153846154,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "Singapore Society",
+                    "Voters": 7,
+                    "NonVoters": 31,
+                    "Eligible": 38,
+                    "IsOtherItem": false,
+                    "Turnout": 18.4210526315789,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Sitcom Society",
+                    "Voters": 14,
+                    "NonVoters": 45,
+                    "Eligible": 59,
+                    "IsOtherItem": false,
+                    "Turnout": 23.728813559322,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Small Business Owners",
+                    "Voters": 0,
+                    "NonVoters": 10,
+                    "Eligible": 10,
+                    "IsOtherItem": false,
+                    "Turnout": 0.0,
+                    "RelativeTurnout": 0.0
+                },
+                {
+                    "Name": "Sober Socials",
+                    "Voters": 36,
+                    "NonVoters": 83,
+                    "Eligible": 119,
+                    "IsOtherItem": false,
+                    "Turnout": 30.2521008403361,
+                    "RelativeTurnout": 0.0766609880749574
+                },
+                {
+                    "Name": "Sri Lankan Society",
+                    "Voters": 3,
+                    "NonVoters": 13,
+                    "Eligible": 16,
+                    "IsOtherItem": false,
+                    "Turnout": 18.75,
+                    "RelativeTurnout": 0.00638841567291312
+                },
+                {
+                    "Name": "Student Christian Movement",
+                    "Voters": 7,
+                    "NonVoters": 10,
+                    "Eligible": 17,
+                    "IsOtherItem": false,
+                    "Turnout": 41.1764705882353,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Student Exchange",
+                    "Voters": 8,
+                    "NonVoters": 23,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 25.8064516129032,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "Sudanese Society",
+                    "Voters": 9,
+                    "NonVoters": 20,
+                    "Eligible": 29,
+                    "IsOtherItem": false,
+                    "Turnout": 31.0344827586207,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Tabletop Gaming",
+                    "Voters": 49,
+                    "NonVoters": 127,
+                    "Eligible": 176,
+                    "IsOtherItem": false,
+                    "Turnout": 27.8409090909091,
+                    "RelativeTurnout": 0.104344122657581
+                },
+                {
+                    "Name": "Tamil",
+                    "Voters": 19,
+                    "NonVoters": 44,
+                    "Eligible": 63,
+                    "IsOtherItem": false,
+                    "Turnout": 30.1587301587302,
+                    "RelativeTurnout": 0.0404599659284497
+                },
+                {
+                    "Name": "Taylor Swift",
+                    "Voters": 34,
+                    "NonVoters": 97,
+                    "Eligible": 131,
+                    "IsOtherItem": false,
+                    "Turnout": 25.9541984732824,
+                    "RelativeTurnout": 0.0724020442930153
+                },
+                {
+                    "Name": "Tea Society",
+                    "Voters": 32,
+                    "NonVoters": 52,
+                    "Eligible": 84,
+                    "IsOtherItem": false,
+                    "Turnout": 38.0952380952381,
+                    "RelativeTurnout": 0.0681431005110732
+                },
+                {
+                    "Name": "The Birmingham Footnotes Comedy Society",
+                    "Voters": 6,
+                    "NonVoters": 14,
+                    "Eligible": 20,
+                    "IsOtherItem": false,
+                    "Turnout": 30.0,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "The University of Birmingham Guild of Students Yoga Society",
+                    "Voters": 60,
+                    "NonVoters": 140,
+                    "Eligible": 200,
+                    "IsOtherItem": false,
+                    "Turnout": 30.0,
+                    "RelativeTurnout": 0.127768313458262
+                },
+                {
+                    "Name": "Toastmasters",
+                    "Voters": 18,
+                    "NonVoters": 42,
+                    "Eligible": 60,
+                    "IsOtherItem": false,
+                    "Turnout": 30.0,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "Turkish",
+                    "Voters": 4,
+                    "NonVoters": 17,
+                    "Eligible": 21,
+                    "IsOtherItem": false,
+                    "Turnout": 19.047619047619,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "UBCU",
+                    "Voters": 38,
+                    "NonVoters": 97,
+                    "Eligible": 135,
+                    "IsOtherItem": false,
+                    "Turnout": 28.1481481481482,
+                    "RelativeTurnout": 0.0809199318568995
+                },
+                {
+                    "Name": "University of Birmingham Astronomical Society",
+                    "Voters": 26,
+                    "NonVoters": 83,
+                    "Eligible": 109,
+                    "IsOtherItem": false,
+                    "Turnout": 23.8532110091743,
+                    "RelativeTurnout": 0.055366269165247
+                },
+                {
+                    "Name": "UOB Badminton Eagles Society",
+                    "Voters": 6,
+                    "NonVoters": 32,
+                    "Eligible": 38,
+                    "IsOtherItem": false,
+                    "Turnout": 15.7894736842105,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "UOB Girl Gamers",
+                    "Voters": 5,
+                    "NonVoters": 12,
+                    "Eligible": 17,
+                    "IsOtherItem": false,
+                    "Turnout": 29.4117647058824,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Vegetarian & Vegan Soc",
+                    "Voters": 18,
+                    "NonVoters": 27,
+                    "Eligible": 45,
+                    "IsOtherItem": false,
+                    "Turnout": 40.0,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "Virtual Reality",
+                    "Voters": 4,
+                    "NonVoters": 8,
+                    "Eligible": 12,
+                    "IsOtherItem": false,
+                    "Turnout": 33.3333333333333,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Watch This",
+                    "Voters": 45,
+                    "NonVoters": 48,
+                    "Eligible": 93,
+                    "IsOtherItem": false,
+                    "Turnout": 48.3870967741936,
+                    "RelativeTurnout": 0.0958262350936968
+                },
+                {
+                    "Name": "Wayfarers Hiking Society",
+                    "Voters": 80,
+                    "NonVoters": 246,
+                    "Eligible": 326,
+                    "IsOtherItem": false,
+                    "Turnout": 24.5398773006135,
+                    "RelativeTurnout": 0.170357751277683
+                },
+                {
+                    "Name": "Welsh",
+                    "Voters": 11,
+                    "NonVoters": 24,
+                    "Eligible": 35,
+                    "IsOtherItem": false,
+                    "Turnout": 31.4285714285714,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "Women in Law",
+                    "Voters": 69,
+                    "NonVoters": 197,
+                    "Eligible": 266,
+                    "IsOtherItem": false,
+                    "Turnout": 25.9398496240602,
+                    "RelativeTurnout": 0.146933560477002
+                },
+                {
+                    "Name": "Women In Politics",
+                    "Voters": 38,
+                    "NonVoters": 59,
+                    "Eligible": 97,
+                    "IsOtherItem": false,
+                    "Turnout": 39.1752577319588,
+                    "RelativeTurnout": 0.0809199318568995
+                },
+                {
+                    "Name": "Writer's Bloc",
+                    "Voters": 15,
+                    "NonVoters": 28,
+                    "Eligible": 43,
+                    "IsOtherItem": false,
+                    "Turnout": 34.8837209302326,
+                    "RelativeTurnout": 0.0319420783645656
+                }
+            ]
+        },
+        {
+            "Name": "Volunteering Groups",
+            "Items": [
+                {
+                    "Name": "Action against Homelessness",
+                    "Voters": 58,
+                    "NonVoters": 98,
+                    "Eligible": 156,
+                    "IsOtherItem": false,
+                    "Turnout": 37.1794871794872,
+                    "RelativeTurnout": 0.12350936967632
+                },
+                {
+                    "Name": "Amnesty International",
+                    "Voters": 14,
+                    "NonVoters": 23,
+                    "Eligible": 37,
+                    "IsOtherItem": false,
+                    "Turnout": 37.8378378378378,
+                    "RelativeTurnout": 0.0298126064735946
+                },
+                {
+                    "Name": "Beat",
+                    "Voters": 2,
+                    "NonVoters": 15,
+                    "Eligible": 17,
+                    "IsOtherItem": false,
+                    "Turnout": 11.7647058823529,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Birmingham Students for Life",
+                    "Voters": 10,
+                    "NonVoters": 9,
+                    "Eligible": 19,
+                    "IsOtherItem": false,
+                    "Turnout": 52.6315789473684,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Blood Donation Society",
+                    "Voters": 18,
+                    "NonVoters": 23,
+                    "Eligible": 41,
+                    "IsOtherItem": false,
+                    "Turnout": 43.9024390243902,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "Breast Cancer Awareness Society",
+                    "Voters": 6,
+                    "NonVoters": 13,
+                    "Eligible": 19,
+                    "IsOtherItem": false,
+                    "Turnout": 31.578947368421,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Conservation Volunteers",
+                    "Voters": 51,
+                    "NonVoters": 82,
+                    "Eligible": 133,
+                    "IsOtherItem": false,
+                    "Turnout": 38.3458646616541,
+                    "RelativeTurnout": 0.108603066439523
+                },
+                {
+                    "Name": "Engineers Without Borders",
+                    "Voters": 38,
+                    "NonVoters": 64,
+                    "Eligible": 102,
+                    "IsOtherItem": false,
+                    "Turnout": 37.2549019607843,
+                    "RelativeTurnout": 0.0809199318568995
+                },
+                {
+                    "Name": "First Aid Society - SJA LINKS",
+                    "Voters": 24,
+                    "NonVoters": 59,
+                    "Eligible": 83,
+                    "IsOtherItem": false,
+                    "Turnout": 28.9156626506024,
+                    "RelativeTurnout": 0.0511073253833049
+                },
+                {
+                    "Name": "Friends International",
+                    "Voters": 16,
+                    "NonVoters": 39,
+                    "Eligible": 55,
+                    "IsOtherItem": false,
+                    "Turnout": 29.0909090909091,
+                    "RelativeTurnout": 0.0340715502555366
+                },
+                {
+                    "Name": "International Volunteering Society (Intervol)",
+                    "Voters": 26,
+                    "NonVoters": 49,
+                    "Eligible": 75,
+                    "IsOtherItem": false,
+                    "Turnout": 34.6666666666667,
+                    "RelativeTurnout": 0.055366269165247
+                },
+                {
+                    "Name": "Sexpression",
+                    "Voters": 18,
+                    "NonVoters": 30,
+                    "Eligible": 48,
+                    "IsOtherItem": false,
+                    "Turnout": 37.5,
+                    "RelativeTurnout": 0.0383304940374787
+                },
+                {
+                    "Name": "STAR",
+                    "Voters": 38,
+                    "NonVoters": 77,
+                    "Eligible": 115,
+                    "IsOtherItem": false,
+                    "Turnout": 33.0434782608696,
+                    "RelativeTurnout": 0.0809199318568995
+                },
+                {
+                    "Name": "The 93% Club",
+                    "Voters": 4,
+                    "NonVoters": 9,
+                    "Eligible": 13,
+                    "IsOtherItem": false,
+                    "Turnout": 30.7692307692308,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "UNICEF on campus",
+                    "Voters": 15,
+                    "NonVoters": 25,
+                    "Eligible": 40,
+                    "IsOtherItem": false,
+                    "Turnout": 37.5,
+                    "RelativeTurnout": 0.0319420783645656
+                },
+                {
+                    "Name": "UoB Tuition Scheme",
+                    "Voters": 8,
+                    "NonVoters": 8,
+                    "Eligible": 16,
+                    "IsOtherItem": false,
+                    "Turnout": 50.0,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "ValeFest",
+                    "Voters": 34,
+                    "NonVoters": 38,
+                    "Eligible": 72,
+                    "IsOtherItem": false,
+                    "Turnout": 47.2222222222222,
+                    "RelativeTurnout": 0.0724020442930153
+                }
+            ]
+        },
+        {
+            "Name": "MedSoc Societies and Sports Clubs",
+            "Items": [
+                {
+                    "Name": "Academic Medicine Society (BAMSOC)",
+                    "Voters": 7,
+                    "NonVoters": 21,
+                    "Eligible": 28,
+                    "IsOtherItem": false,
+                    "Turnout": 25.0,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "African Caribbean Medical Society Birmingham (ACMS)",
+                    "Voters": 20,
+                    "NonVoters": 47,
+                    "Eligible": 67,
+                    "IsOtherItem": false,
+                    "Turnout": 29.8507462686567,
+                    "RelativeTurnout": 0.0425894378194208
+                },
+                {
+                    "Name": "All other organisations",
+                    "Voters": 412,
+                    "NonVoters": 1878,
+                    "Eligible": 2290,
+                    "IsOtherItem": true,
+                    "Turnout": 17.9912663755459,
+                    "RelativeTurnout": 0.877342419080068
+                },
+                {
+                    "Name": "Anaesthetics and Intensive/Critical Care Medicine",
+                    "Voters": 10,
+                    "NonVoters": 69,
+                    "Eligible": 79,
+                    "IsOtherItem": false,
+                    "Turnout": 12.6582278481013,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Anatomy Society",
+                    "Voters": 25,
+                    "NonVoters": 63,
+                    "Eligible": 88,
+                    "IsOtherItem": false,
+                    "Turnout": 28.4090909090909,
+                    "RelativeTurnout": 0.053236797274276
+                },
+                {
+                    "Name": "Badminton",
+                    "Voters": 8,
+                    "NonVoters": 66,
+                    "Eligible": 74,
+                    "IsOtherItem": false,
+                    "Turnout": 10.8108108108108,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "Biomedical Sciences",
+                    "Voters": 19,
+                    "NonVoters": 45,
+                    "Eligible": 64,
+                    "IsOtherItem": false,
+                    "Turnout": 29.6875,
+                    "RelativeTurnout": 0.0404599659284497
+                },
+                {
+                    "Name": "Birmingham MedMinds",
+                    "Voters": 9,
+                    "NonVoters": 36,
+                    "Eligible": 45,
+                    "IsOtherItem": false,
+                    "Turnout": 20.0,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Birmingham University Cardiovascular Society",
+                    "Voters": 11,
+                    "NonVoters": 57,
+                    "Eligible": 68,
+                    "IsOtherItem": false,
+                    "Turnout": 16.1764705882353,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "Cricket",
+                    "Voters": 6,
+                    "NonVoters": 27,
+                    "Eligible": 33,
+                    "IsOtherItem": false,
+                    "Turnout": 18.1818181818182,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Dermatology Society (DermSoc)",
+                    "Voters": 4,
+                    "NonVoters": 18,
+                    "Eligible": 22,
+                    "IsOtherItem": false,
+                    "Turnout": 18.1818181818182,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Docs Not Cops",
+                    "Voters": 7,
+                    "NonVoters": 31,
+                    "Eligible": 38,
+                    "IsOtherItem": false,
+                    "Turnout": 18.4210526315789,
+                    "RelativeTurnout": 0.0149063032367973
+                },
+                {
+                    "Name": "Earth Resus Team",
+                    "Voters": 2,
+                    "NonVoters": 18,
+                    "Eligible": 20,
+                    "IsOtherItem": false,
+                    "Turnout": 10.0,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "Emergency Medicine Society",
+                    "Voters": 22,
+                    "NonVoters": 57,
+                    "Eligible": 79,
+                    "IsOtherItem": false,
+                    "Turnout": 27.8481012658228,
+                    "RelativeTurnout": 0.0468483816013629
+                },
+                {
+                    "Name": "FitClub",
+                    "Voters": 12,
+                    "NonVoters": 83,
+                    "Eligible": 95,
+                    "IsOtherItem": false,
+                    "Turnout": 12.6315789473684,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "GPSoc",
+                    "Voters": 9,
+                    "NonVoters": 41,
+                    "Eligible": 50,
+                    "IsOtherItem": false,
+                    "Turnout": 18.0,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Haematology Society",
+                    "Voters": 6,
+                    "NonVoters": 25,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 19.3548387096774,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "Hockey",
+                    "Voters": 44,
+                    "NonVoters": 96,
+                    "Eligible": 140,
+                    "IsOtherItem": false,
+                    "Turnout": 31.4285714285714,
+                    "RelativeTurnout": 0.0936967632027257
+                },
+                {
+                    "Name": "Islamic Medical Society",
+                    "Voters": 42,
+                    "NonVoters": 81,
+                    "Eligible": 123,
+                    "IsOtherItem": false,
+                    "Turnout": 34.1463414634146,
+                    "RelativeTurnout": 0.0894378194207836
+                },
+                {
+                    "Name": "Medcheer",
+                    "Voters": 6,
+                    "NonVoters": 25,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 19.3548387096774,
+                    "RelativeTurnout": 0.0127768313458262
+                },
+                {
+                    "Name": "MedSoc Create",
+                    "Voters": 2,
+                    "NonVoters": 15,
+                    "Eligible": 17,
+                    "IsOtherItem": false,
+                    "Turnout": 11.7647058823529,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "MedSoc Dance",
+                    "Voters": 9,
+                    "NonVoters": 87,
+                    "Eligible": 96,
+                    "IsOtherItem": false,
+                    "Turnout": 9.375,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "MedSoc LGBTQ+ Society",
+                    "Voters": 9,
+                    "NonVoters": 20,
+                    "Eligible": 29,
+                    "IsOtherItem": false,
+                    "Turnout": 31.0344827586207,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "MedSoc Performing Arts Society (ARTE)",
+                    "Voters": 2,
+                    "NonVoters": 41,
+                    "Eligible": 43,
+                    "IsOtherItem": false,
+                    "Turnout": 4.65116279069767,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "MedSwim",
+                    "Voters": 3,
+                    "NonVoters": 28,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 9.67741935483871,
+                    "RelativeTurnout": 0.00638841567291312
+                },
+                {
+                    "Name": "Neurology Society (NeuroSoc)",
+                    "Voters": 3,
+                    "NonVoters": 29,
+                    "Eligible": 32,
+                    "IsOtherItem": false,
+                    "Turnout": 9.375,
+                    "RelativeTurnout": 0.00638841567291312
+                },
+                {
+                    "Name": "Nutritank",
+                    "Voters": 9,
+                    "NonVoters": 57,
+                    "Eligible": 66,
+                    "IsOtherItem": false,
+                    "Turnout": 13.6363636363636,
+                    "RelativeTurnout": 0.0191652470187394
+                },
+                {
+                    "Name": "Oncology (OncSoc)",
+                    "Voters": 11,
+                    "NonVoters": 32,
+                    "Eligible": 43,
+                    "IsOtherItem": false,
+                    "Turnout": 25.5813953488372,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "Paediatrics, Obstetrics, Neonatology and Gynaecology Society (PONGSoc)",
+                    "Voters": 10,
+                    "NonVoters": 38,
+                    "Eligible": 48,
+                    "IsOtherItem": false,
+                    "Turnout": 20.8333333333333,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Palliative Medicine Society",
+                    "Voters": 12,
+                    "NonVoters": 28,
+                    "Eligible": 40,
+                    "IsOtherItem": false,
+                    "Turnout": 30.0,
+                    "RelativeTurnout": 0.0255536626916525
+                },
+                {
+                    "Name": "PsychSoc",
+                    "Voters": 4,
+                    "NonVoters": 23,
+                    "Eligible": 27,
+                    "IsOtherItem": false,
+                    "Turnout": 14.8148148148148,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "Respiratory Society (RespSoc)",
+                    "Voters": 28,
+                    "NonVoters": 91,
+                    "Eligible": 119,
+                    "IsOtherItem": false,
+                    "Turnout": 23.5294117647059,
+                    "RelativeTurnout": 0.0596252129471891
+                },
+                {
+                    "Name": "Rugby (University of Birmingham Medical School RFC- UBMSRFC)",
+                    "Voters": 11,
+                    "NonVoters": 49,
+                    "Eligible": 60,
+                    "IsOtherItem": false,
+                    "Turnout": 18.3333333333333,
+                    "RelativeTurnout": 0.0234241908006814
+                },
+                {
+                    "Name": "Running (MedRun)",
+                    "Voters": 8,
+                    "NonVoters": 41,
+                    "Eligible": 49,
+                    "IsOtherItem": false,
+                    "Turnout": 16.3265306122449,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "Sports & Exercise Medicine",
+                    "Voters": 8,
+                    "NonVoters": 18,
+                    "Eligible": 26,
+                    "IsOtherItem": false,
+                    "Turnout": 30.7692307692308,
+                    "RelativeTurnout": 0.0170357751277683
+                },
+                {
+                    "Name": "Squash",
+                    "Voters": 5,
+                    "NonVoters": 23,
+                    "Eligible": 28,
+                    "IsOtherItem": false,
+                    "Turnout": 17.8571428571429,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Teddy Bears Hospital",
+                    "Voters": 16,
+                    "NonVoters": 84,
+                    "Eligible": 100,
+                    "IsOtherItem": false,
+                    "Turnout": 16.0,
+                    "RelativeTurnout": 0.0340715502555366
+                },
+                {
+                    "Name": "Tennis",
+                    "Voters": 10,
+                    "NonVoters": 42,
+                    "Eligible": 52,
+                    "IsOtherItem": false,
+                    "Turnout": 19.2307692307692,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "Trauma and Orthopaedics Society",
+                    "Voters": 15,
+                    "NonVoters": 64,
+                    "Eligible": 79,
+                    "IsOtherItem": false,
+                    "Turnout": 18.9873417721519,
+                    "RelativeTurnout": 0.0319420783645656
+                },
+                {
+                    "Name": "Tutti (MedSoc Music Society)",
+                    "Voters": 2,
+                    "NonVoters": 45,
+                    "Eligible": 47,
+                    "IsOtherItem": false,
+                    "Turnout": 4.25531914893617,
+                    "RelativeTurnout": 0.00425894378194208
+                },
+                {
+                    "Name": "UBMS Basketball",
+                    "Voters": 4,
+                    "NonVoters": 21,
+                    "Eligible": 25,
+                    "IsOtherItem": false,
+                    "Turnout": 16.0,
+                    "RelativeTurnout": 0.00851788756388416
+                },
+                {
+                    "Name": "UBMS Netball",
+                    "Voters": 30,
+                    "NonVoters": 101,
+                    "Eligible": 131,
+                    "IsOtherItem": false,
+                    "Turnout": 22.9007633587786,
+                    "RelativeTurnout": 0.0638841567291312
+                },
+                {
+                    "Name": "University of Birmingham Surgical Society",
+                    "Voters": 27,
+                    "NonVoters": 135,
+                    "Eligible": 162,
+                    "IsOtherItem": false,
+                    "Turnout": 16.6666666666667,
+                    "RelativeTurnout": 0.057495741056218
+                },
+                {
+                    "Name": "UoB Women in Medicine",
+                    "Voters": 5,
+                    "NonVoters": 26,
+                    "Eligible": 31,
+                    "IsOtherItem": false,
+                    "Turnout": 16.1290322580645,
+                    "RelativeTurnout": 0.0106473594548552
+                },
+                {
+                    "Name": "Widening Access to Medical Sciences Society (BWAMS)",
+                    "Voters": 48,
+                    "NonVoters": 194,
+                    "Eligible": 242,
+                    "IsOtherItem": false,
+                    "Turnout": 19.8347107438017,
+                    "RelativeTurnout": 0.10221465076661
+                },
+                {
+                    "Name": "Wilderness Med",
+                    "Voters": 27,
+                    "NonVoters": 79,
+                    "Eligible": 106,
+                    "IsOtherItem": false,
+                    "Turnout": 25.4716981132075,
+                    "RelativeTurnout": 0.057495741056218
+                },
+                {
+                    "Name": "Women\u2019s Football",
+                    "Voters": 13,
+                    "NonVoters": 37,
+                    "Eligible": 50,
+                    "IsOtherItem": false,
+                    "Turnout": 26.0,
+                    "RelativeTurnout": 0.0276831345826235
+                },
+                {
+                    "Name": "Women\u2019s Rugby (Rugby Birds)",
+                    "Voters": 23,
+                    "NonVoters": 69,
+                    "Eligible": 92,
+                    "IsOtherItem": false,
+                    "Turnout": 25.0,
+                    "RelativeTurnout": 0.0489778534923339
+                }
+            ]
+        },
+        {
+            "Name": "Associations",
+            "Items": [
+                {
+                    "Name": "Intersectional Feminist Association",
+                    "Voters": 10,
+                    "NonVoters": 20,
+                    "Eligible": 30,
+                    "IsOtherItem": false,
+                    "Turnout": 33.3333333333333,
+                    "RelativeTurnout": 0.0212947189097104
+                },
+                {
+                    "Name": "LGBTQ",
+                    "Voters": 64,
+                    "NonVoters": 101,
+                    "Eligible": 165,
+                    "IsOtherItem": false,
+                    "Turnout": 38.7878787878788,
+                    "RelativeTurnout": 0.136286201022146
+                },
+                {
+                    "Name": "SANDAM",
+                    "Voters": 32,
+                    "NonVoters": 28,
+                    "Eligible": 60,
+                    "IsOtherItem": false,
+                    "Turnout": 53.3333333333333,
+                    "RelativeTurnout": 0.0681431005110732
+                }
+            ]
+        }
+    ],
+    "Turnout": 12.0315161839864
+}
